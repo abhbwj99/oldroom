@@ -1,2 +1,2 @@
 # new-website
- my-new-website!!
+I had before decided and finally have finished  building my online archive. My plan it to keep this archive active, which means new contents all assorted from my paid and personal work. There's a lot of stuff that'll be available for live interacting. Working on it when I get my time...
