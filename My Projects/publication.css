@@ -1,0 +1,338 @@
+* 
+{ 
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    line-height: 1.5px;
+    background-color: #2F4858;
+    cursor: none;
+    user-select: none;
+    overflow-y: hidden; 
+}
+html.lenis {
+    height: auto;
+}
+.lenis.lenis-smooth {
+    scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+.lenis.lenis-stopper {
+    overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+html.lenis {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  .cursor-dot {
+    width: 10px;
+    height: 10px;
+
+    background-color:hsl(59, 91.9%, 71.0%)
+  }
+  .cursor-outline {
+    width: 35px;
+    height: 35px;
+    border: 2.3px solid hsl(59, 91.9%, 71.0%)
+  }
+  .cursor-outline,
+  .cursor-dot {
+     position: fixed;
+     top: 0;
+     left: 0;
+     transform: translate(-50%, -50%);
+     z-index: 1;
+     border-radius: 50%;
+     pointer-events: none;
+  }
+  .crane {
+    margin-top: 0px;
+    display: flex;
+  }
+  .iconwrapper {
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+  }
+  .wrapitup {
+    display: inline-block;
+    position: absolute;
+    padding-top: 9.3px;
+    padding-left: 8px;
+  }
+  .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #2F4858;
+  /*  transition: filter 0.3s ease-in-out; */
+    transition: color 0.3s ease-in-out;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 12.7px solid transparent; /* Adjust the size as needed */
+    border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
+    border-bottom: 12.7px solid transparent; /* Adjust the size as needed */
+    position: absolute;
+    transition: color 0.3s ease-in-out;
+  }
+  .circle:hover {
+   filter: drop-shadow(0 0 10px rgba(242, 242, 226, 0.7));
+   background-color: teal;
+  }
+  .iconic {
+    margin-left: 40px;
+    display: inline-block;
+    position: relative;
+  }
+  .wrapitup1 {
+    display: inline-block;
+    position: absolute;
+    padding-top: 10.3px;
+    padding-left: 14px;
+  }
+  .circle1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #2F4858;
+  /*  transition: filter 0.3s ease-in-out; */
+    transition: color 0.3s ease-in-out;
+  }
+  .triangle1 {
+    width: 0;
+    height: 0;
+    border-top: 12.7px solid transparent; /* Adjust the size as needed */
+    border-bottom: 12.7px solid transparent; /* Adjust the size as needed */
+    border-left: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
+    position: absolute;
+    transition: color 0.3s ease-in-out;
+  }
+  .circle1:hover {
+   filter: drop-shadow(0 0 10px rgba(242, 242, 226, 0.7));
+   background-color: teal;
+  }
+
+  .container {
+    max-width: 1820px;
+    margin-left: 160px;
+    margin-top: 160px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: 500px 800px;
+    grid-template-rows: 490px 450px;
+    grid-auto-columns: minmax(50px, auto);  
+    grid-auto-rows: minmax(50px, auto); 
+    column-gap: 80px;
+  }
+  .item:nth-of-type(1) {
+    font-family : 'Bebas Neue', sans-serif;
+    font-size: 85px;
+    line-height: 80px;
+    user-select: none;  
+    color: #f2f2e2;
+  }
+  .body {
+    font-family: 'Switzer-Medium';
+    font-weight: 500;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 18.85px;
+    padding-top: 50px;
+    color: #f2f2e2;
+    line-height: 23.5px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); /* Adjust the column width as needed */
+    gap: 10px; /* Adjust the gap between images as needed */
+  }
+  
+  img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+    max-height: 100%; /* Make sure the image doesn't exceed its container's height */
+    width: 100%; /* Ensure the image takes up the entire grid cell width */
+    height: auto; /* Allow the image to resize its height proportionally */
+    transition: transform 0.3s ease-in-out;
+  }
+  img.zoomer {
+    transform: scale(2); /* You can adjust the zoom level (1.5 for 150% zoom) */
+  }
+  .zoomer {
+    position: relative;
+    overflow: hidden;
+  }
+  .publicimg:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 249, 0.3));
+  }
+  .zoomer:hover::before {
+    content: "Click to Zoom"; /* Text or icon you want to display */
+    font-family: 'Switzer-Medium';
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #f2f2e2; /* Text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    font-size: 17px; /* Adjust font size as needed */
+    opacity: 0;
+    pointer-events: none; /* Ensure the text does not interfere with clicks */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .zoomer:hover::before {
+    opacity: 1;
+  }
+  .containe2 {
+    max-width: 300px;
+    display: flexbox;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 800px;
+  }
+  .downloaded {
+    font-family: 'Switzer-Medium';
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+    text-align: center;
+    font-size: 18.85px;
+    color: #f2f2e2;
+    line-height: 23.5px;
+    transition: transform 0.3s ease;
+  }
+.downloaded:hover {
+  z-index: 1;
+  text-shadow: 0 0 7.8px #f2f2e2;
+}
+.item:nth-of-type(2):hover::before {
+  content: "Download Full PDF"; /* Text or icon you want to display */
+  font-family: 'Vercetti-Regular', sans-serif;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  position: absolute;
+  top: 24%;
+  left: 46%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  color: #f2f2e2; /* Text color */
+  padding: 5px 10px; /* Adjust padding as needed */
+  font-size: 17px; /* Adjust font size as needed */
+}
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .item:nth-of-type(1) * {
+    opacity: 0;
+    transform: translateY(39px);
+    animation: textAppear 1.2s ease-in-out forwards;
+  }
+  
+  @keyframes textAppear {
+    from {
+      opacity: 0;
+      transform: translateY(39px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .item:nth-of-type(1) a {
+    display: inline-block;
+    opacity: 0;
+    animation: linkAppear 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes linkAppear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  a {
+    cursor: none !important; /* Hide the default cursor for all links */
+  }
+      @font-face {
+        font-family: 'Vercetti-Regular';
+        font-style: normal;
+        font-weight: regular;
+        src: local('Vercetti-Regular'), url('fonts/Vercetti-Regular.woff') format('woff');
+    }
+    @font-face {
+      font-family: 'Switzer-Medium';
+      src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+           url('/fonts/Switzer-Medium.woff') format('woff'),
+           url('/fonts/Switzer-Medium.ttf') format('truetype');
+           font-weight: 500;
+           font-display: swap;
+           font-style: normal;
+    }
+    @media screen and (max-width: 1366px) {
+
+      *
+     {
+         box-sizing: border-box;
+         padding: 0;
+         margin: 0;
+     }
+       }
+       /* Media Query for MacBook Air (13.3-inch screen width) */
+     @media screen and (max-width: 1440px) {
+       /* Your CSS rules for the MacBook Air go here */
+       *
+         {
+             box-sizing: border-box;
+             padding: 0;
+             margin: 0;
+         }
+         .body {
+             overflow-x: hidden;
+         }
+         .container {
+          grid-template-columns: 423px 800px;
+          grid-template-rows: 352px 450px;
+          margin-left: 100px;
+          margin-top: 100px;
+          column-gap: 40px;
+        }
+        .item:nth-of-type(1) {
+          font-family : 'Bebas Neue', sans-serif;
+          font-size: 75px;
+          line-height: 70px;
+          user-select: none;  
+          color: #f2f2e2;
+        }
+        .body {
+          font-size: 17.2px;
+          line-height: 23.5px;
+        }
+        .containe2 {
+          max-width: 300px;
+          display: flexbox;
+          justify-content: center;
+          margin-top: 80px;
+          margin-left: 550px;
+        }
+    }
