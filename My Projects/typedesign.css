@@ -323,44 +323,6 @@ font-weight: 700;
       font-weight: regular;
       src: local('Vercetti-Regular'), url('fonts/Vercetti-Regular.woff') format('woff');
   }
-  @font-face {
-    font-family: 'Stardom-Regular';
-    src: url('/fonts/Stardom-Regular.woff2') format('woff2'),
-         url('/fonts/Stardom-Regular.woff') format('woff'),
-         url('/fonts/Stardom-Regular.ttf') format('truetype');
-         font-weight: 400;
-         font-display: swap;
-         font-style: normal;
-  }
-  @font-face {
-    font-family: 'Archivo-Bold';
-    src: url('/fonts/Archivo-Bold.woff2') format('woff2'),
-         url('/fonts/Archivo-Bold.woff') format('woff'),
-         url('/fonts/Archivo-Bold.ttf') format('truetype');
-         font-weight: 400;
-         font-display: swap;
-         font-style: normal;
-  }
-  @font-face {
-    font-family: 'Switzer-Medium';
-    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/fonts/Switzer-Medium.woff') format('woff'),
-         url('/fonts/Switzer-Medium.ttf') format('truetype');
-         font-weight: 500;
-         font-display: swap;
-         font-style: normal;
-  }
-  @font-face {
-    font-family: 'Archivo-Medium';
-    src: url('/fonts/Archivo-Medium.woff2') format('woff2'),
-         url('/fonts/Archivo-Medium.woff') format('woff'),
-         url('/fonts/Archivo-Medium.ttf') format('truetype');
-         font-weight: 500;
-         font-display: swap;
-         font-style: normal;
-  }
-
-  
  /* Existing styles */
  a {
   cursor: none !important; /* Hide the default cursor for all links */
