@@ -822,9 +822,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('fonts/Switzer-Medium.woff2') format('woff2'),
-         url('fonts/Switzer-Medium.woff') format('woff'),
-         url('fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
