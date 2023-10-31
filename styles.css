@@ -1708,7 +1708,7 @@ justify-content: left;
   padding-top: 100px;
 }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1170px) {
   /* Your mobile phone-specific styles go here */
   body {
     font-size: 16px;
