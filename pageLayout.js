@@ -66,9 +66,9 @@ function Ractangle(x, y)
     this.x = x;
     this.y = y;
     
-    this.r = 249;
-    this.g = 248;
-    this.b = 113;
+    this.r = 252;
+    this.g = 252;
+    this.b = 76;
     
     this.strk_Weight = 0;
     this.fIll_Col = random(255, 159);
