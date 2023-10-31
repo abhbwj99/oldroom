@@ -1718,6 +1718,7 @@ justify-content: left;
   /* Your mobile phone-specific styles go here */
   body {
     font-size: 16px;
+    overflow-x: none;
   }
   .message{
     max-width: 340px;
