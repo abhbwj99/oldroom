@@ -10,7 +10,7 @@ body{
     background-color: #f2f2e2;
     cursor: none;
      overflow-x: hidden;
-     overflow-y: hidden; 
+    /* overflow-y: hidden; */
    /* background-color: #1b1b1b; */
 }
 html.lenis {
