@@ -160,7 +160,7 @@ html.lenis {
   font-size: 37.85px;
   color: #f2f2e2;
   line-height: 23.5px;
-  padding-top: 330px;
+  padding-top: 310px;
 }
 .cluster {
    font-family: 'Switzer-Medium';
@@ -168,12 +168,12 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  padding-top: 50px;
+  padding-top: 95px;
   color: #f2f2e2;
   line-height: 23.5px;
 }
 .stats {
-   font-family: 'Switzer-Medium';
+  font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -235,15 +235,15 @@ html.lenis {
   font-size: 28.85px;
   color: #f2f2e2;
   line-height: 29.5px;
-  padding-top: 407px;
-  padding-left: 100px;
+  padding-top: 423px;
+  padding-left: 300px;
 }
 .stats {
     font-weight: 500;
   font-size: 18.85px;
   padding-top: 30px;
   color: #f2f2e2;
-  padding-left: 100px;
+  padding-left: 300px;
   line-height: 23.5px;
 }
 .nationaldress {
@@ -253,8 +253,8 @@ html.lenis {
   display: grid;
   grid-template-columns: 600px 600px;
   grid-template-rows: 600px 600px;
-  column-gap: 150px;
-  row-gap: 230px;
+  column-gap: 250px;
+  row-gap: 290px;
 }
 .sonar:nth-of-type(4) {
   padding-top: 53px;

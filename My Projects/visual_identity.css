@@ -209,14 +209,14 @@ html.lenis {
 }
 .container2 {
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 10px;
     display: flex;
 }
 
 .bowl {
     margin-top: 70px;
     display: grid;
-    padding-left: 100px;
+    padding-left: 155px;
     padding-right: 300px;
     grid-template-columns: 400px 400px;
     grid-template-rows: 284px 350px;
@@ -244,8 +244,8 @@ html.lenis {
     line-height: 23.5px;
     justify-self: start;
 }
-.container3{
-    margin-top: 70px;
+.container3 {
+    margin-top: 0px;
     margin-left: 80px;
     display: grid;
     padding-right: 300px;
@@ -313,7 +313,7 @@ html.lenis {
     margin-left: 165px;
     display: grid;
     padding-right: 300px;
-    grid-template-columns: 450px 450px;
+    grid-template-columns: 490px 490px;
     grid-template-rows: 150px 50px;
     column-gap: 60px;
 }
@@ -329,26 +329,26 @@ html.lenis {
     row-gap: 140px;
 }
 .head1 {
-    padding-left: 50px;
+    padding-left: 43px;
     font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: -2px;
+    letter-spacing: 0.5px;
     line-height: 80px;
     user-select: none;  
     color: #f2f2e2;
 }
 .head2 {
-    padding-left: 50px;
+    padding-left: 44px;
     text-align: left;
     font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: -2px;
+    letter-spacing: 0.5px;
     line-height: 80px;
     user-select: none;  
     color: #f2f2e2;
@@ -362,7 +362,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: -2px;
+    letter-spacing: 0.5px;
     line-height: 80px;
     user-select: none;  
     color: #f2f2e2;

@@ -146,7 +146,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
   color: #f2f2e2;
-  padding-top: 50px;
+  padding-top: 100px;
   line-height: 23.5px;
 }
 .headbut1 {
@@ -172,7 +172,7 @@ html.lenis {
 }
 .prodbody {
   width: 662px;
-  padding-left: 50px;
+  padding-left: 100px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
@@ -180,11 +180,11 @@ html.lenis {
   text-align: left;
   font-size: 18.85px;
   color: #f2f2e2;
-  padding-top: 50px;
+  padding-top: 100px;
   line-height: 23.5px;
 }
 .artistbody {
-  width: 662px;
+  width: 612px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
