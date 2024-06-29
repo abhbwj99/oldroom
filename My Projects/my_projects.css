@@ -7,7 +7,7 @@
 }
 body {
     line-height: 1.5px;
-    background-color: #2F4858;
+    background-color: #f2f2e2;
     cursor: none;
     user-select: none;
     overflow-y: hidden; 
@@ -36,12 +36,12 @@ html.lenis {
   .cursor-dot {
     width: 10px;
     height: 10px;
-    background-color:hsl(59, 91.9%, 71.0%)
+    background-color:hsl(180, 100%, 25%)
   }
   .cursor-outline {
     width: 35px;
     height: 35px;
-    border: 2.3px solid hsl(59, 91.9%, 71.0%)
+    border: 2.3px solid hsl(180, 100%, 25%)
   }
   .cursor-outline,
   .cursor-dot {
@@ -144,7 +144,7 @@ html.lenis {
     font-size: 85px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .backback {
   padding-bottom: 70px;
@@ -158,7 +158,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
   padding-top: 310px;
 }
@@ -169,7 +169,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 95px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .stats {
@@ -179,7 +179,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 50px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .body {
@@ -189,7 +189,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .endnote {
@@ -200,7 +200,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 150px;
-    color: #f2f2e2;
+    color: #2F4858;
     text-align: center;
     line-height: 23.5px;
 }
@@ -211,7 +211,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 36px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .beauty {
@@ -233,7 +233,7 @@ html.lenis {
 .boxhead {
    font-family: 'Switzer-Medium';
   font-size: 28.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 29.5px;
   padding-top: 423px;
   padding-left: 300px;
@@ -242,7 +242,7 @@ html.lenis {
     font-weight: 500;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-left: 300px;
   line-height: 23.5px;
 }
@@ -303,7 +303,7 @@ html.lenis {
   font-size: 85px;
   line-height: 80px;
   user-select: none;  
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 680px;
   align-self: start;
 }
@@ -320,7 +320,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .headbottom {
@@ -330,7 +330,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 30.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .item2:nth-of-type(4) {
@@ -342,7 +342,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 30.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 30px;
   line-height: 23.5px;
 }
@@ -356,7 +356,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
   padding-top: 30px;
 }
@@ -369,7 +369,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 30.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 34.5px;
   padding-top: 30px;
 }
@@ -380,7 +380,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .container3 {
@@ -409,9 +409,9 @@ html.lenis {
   margin-left: 200px;
   display: grid;
   position: absolute;
-  grid-template-columns: 695px 850px;
-  grid-template-rows: 766px;
-  column-gap: 30px;
+  grid-template-columns: 563px 850px;
+  grid-template-rows: 764px;
+  column-gap: 76px;
 }
 .press {
   text-align: left;
@@ -419,7 +419,7 @@ html.lenis {
   font-size: 65px;
   line-height: 59px;
   user-select: none;  
-  color: #f2f2e2;
+  color: #2F4858;
 }
 .ruler {
   padding-left: 10px;
@@ -433,7 +433,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .download_manual {
@@ -445,14 +445,14 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   transition: transform 0.3s ease;
   line-height: 23.5px;
 }
 .download_manual:hover {
   transform: scale(1.5);
   z-index: 1;
-  text-shadow: 0 0 7.8px #f2f2e2;
+  text-shadow: 0 0 7.8px #2F4858;
 }
 .iconwrapper1 {
   margin-left: 10px;
@@ -493,7 +493,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 34.5px;
   align-items: start;
   padding-bottom: 50px;
@@ -603,9 +603,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -647,7 +647,6 @@ a {
         font-size: 75px;
         line-height: 70px;
         user-select: none;  
-        color: #f2f2e2;
     }
     .body {
       font-family: 'Switzer-Medium';
@@ -656,7 +655,6 @@ a {
       text-rendering: optimizeLegibility;
         font-size: 17.2px;
         padding-top: 50px;
-        color: #f2f2e2;
         line-height: 23.5px;
     }
     .iconwrapper {
@@ -761,7 +759,6 @@ a {
  font-style: normal;
  text-rendering: optimizeLegibility;
  font-size: 23.85px;
- color: #f2f2e2;
  line-height: 34.5px;
  padding-top: 30px;
 }
@@ -772,7 +769,6 @@ a {
  text-rendering: optimizeLegibility;
  font-size: 17.2px;
  padding-top: 30px;
- color: #f2f2e2;
  line-height: 23.5px;
 }
 .peki1 {

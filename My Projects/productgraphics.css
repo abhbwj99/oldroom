@@ -7,7 +7,7 @@
 }
 body {
     line-height: 1.5px;
-    background-color: #2F4858;
+    background-color: #f2f2e2;
     cursor: none;
     user-select: none;
     overflow-y: hidden; 
@@ -36,12 +36,12 @@ html.lenis {
   .cursor-dot {
     width: 10px;
     height: 10px;
-    background-color:hsl(59, 91.9%, 71.0%)
+    background-color:hsl(180, 100%, 25%)
   }
   .cursor-outline {
     width: 35px;
     height: 35px;
-    border: 2.3px solid hsl(59, 91.9%, 71.0%)
+    border: 2.3px solid hsl(180, 100%, 25%)
   }
   .cursor-outline,
   .cursor-dot {
@@ -61,7 +61,7 @@ html.lenis {
     align-items: start;
     grid-template-columns: 500px 800px;
     grid-auto-columns: minmax(50px, auto);  
-    column-gap: 50px;
+    column-gap: 220px;
   }
   .credit {
     padding-top: 90px;
@@ -71,7 +71,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
     text-decoration: none;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .item:nth-of-type(2) {
@@ -89,7 +89,7 @@ html.lenis {
     font-size: 85px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .bodycopy {
   font-family: 'Switzer-Medium';
@@ -98,7 +98,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .productcover {
@@ -135,8 +135,9 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
-  padding-top: 20px;
+  color: #2F4858;
+  padding-top: 50px;
+  padding-left: 70px;
   line-height: 23.5px;
 }
 .headbut {
@@ -145,7 +146,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 100px;
   line-height: 23.5px;
 }
@@ -155,23 +156,25 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 20px;
   line-height: 23.5px;
 }
 .bodyus {
+  max-width: 586px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 50px;
+  padding-left: 70px;
   line-height: 23.5px;
 }
 .prodbody {
-  width: 662px;
+  width: 596px;
   padding-left: 100px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
@@ -179,7 +182,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 100px;
   line-height: 23.5px;
 }
@@ -191,7 +194,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   padding-top: 50px;
   line-height: 23.5px;
 }
@@ -203,7 +206,7 @@ html.lenis {
     text-align: center;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .iconwrapper {
@@ -279,21 +282,25 @@ html.lenis {
   justify-content: left;
 }
 .archive {
+  padding-top: 50px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .secondgrid {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 160px;
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
   column-gap: 147px;
   row-gap: 45px;
+}
+.bagpipe:nth-of-type(12) {
+  padding-left: 44px;
 }
 .thirdgrid {
   margin-top: 50px;
@@ -328,14 +335,15 @@ html.lenis {
     text-align: left;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .tileimage1:hover {
-  filter: drop-shadow(0 0 10px rgba(242, 242, 226, 0.7));
+  filter: drop-shadow(0 0 10px rgba(47, 72, 88, 1));
 }
 .tileimage2:hover {
-  filter: drop-shadow(0 0 10px rgba(242, 242, 226, 0.7));
+  filter: drop-shadow(0 0 10px rgba(47, 72, 88, 1));
+
 }
 .trombone:nth-of-type(10) {
   padding-top: 150px;
@@ -349,10 +357,10 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 28.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 29.5px;
 }
-.download_manual {
+/*.download_manual {
     
   text-decoration: none;
   text-align: left;
@@ -361,15 +369,15 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   transition: transform 0.3s ease;
   line-height: 23.5px;
 }
 .download_manual:hover {
   transform: scale(1.5);
   z-index: 1;
-  text-shadow: 0 0 7.8px #f2f2e2;
-}
+  text-shadow: 0 0 7.8px #2F4858;
+}*/
 .pedalcollection {
   margin-top: 150px;
   margin-left: 160px;
@@ -401,14 +409,14 @@ html.lenis {
   padding-top: 10px;
 }
 .palettecollect {
-  width: 800px;
+  width: 661px;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 
@@ -483,9 +491,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -559,7 +567,6 @@ a {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
   padding-top: 20px;
   line-height: 23.5px;
 }
@@ -570,7 +577,6 @@ a {
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 17.2px;
-  color: #f2f2e2;
   padding-top: 50px;
   line-height: 23.5px;
 }

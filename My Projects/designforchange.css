@@ -8,7 +8,7 @@
 body{
 
     line-height: 1.5;
-    background-color: #2F4858;
+    background-color: #f2f2e2;
     cursor: none;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -48,12 +48,12 @@ html.lenis {
   .cursor-dot {
     width: 10px;
     height: 10px;
-    background-color:hsl(59, 91.9%, 71.0%)
+    background-color:hsl(180, 100%, 25%)
   }
   .cursor-outline {
     width: 35px;
     height: 35px;
-    border: 2.3px solid hsl(59, 91.9%, 71.0%)
+    border: 2.3px solid hsl(180, 100%, 25%)
   }
   .cursor-outline,
   .cursor-dot {
@@ -83,7 +83,7 @@ html.lenis {
     font-size: 85px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .bodycopy {
   
@@ -91,7 +91,7 @@ html.lenis {
     font-style: normal;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
     padding-bottom: 100px;
 }
@@ -110,7 +110,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 37.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 46.5px;
 }
 .content {
@@ -120,7 +120,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .content1 {
@@ -130,7 +130,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .iconwrapper {
@@ -251,8 +251,8 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 30.85px;
-    color: #f2f2e2;
-    line-height: 40.5px;
+    color: #2F4858;
+    line-height: 36.5px;
 }
 .unescoimg {
     padding-top: 50px;
@@ -266,7 +266,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .whohead {
@@ -277,7 +277,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 30.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 40.5px;
 }
 .whobody {
@@ -287,7 +287,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .howhead {
@@ -298,7 +298,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 25.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 30.5px;
 }
 .howbody {
@@ -309,7 +309,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .systemset {
@@ -324,7 +324,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 74.5px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .dataimg {
@@ -340,7 +340,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 48.5px;
 }
 .forbescontent {
@@ -350,7 +350,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 50px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .forbescontent1 {
@@ -361,7 +361,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 294px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .distance {
@@ -375,7 +375,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 294px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .coimbatoreflex {
@@ -397,7 +397,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .winner1 {
@@ -406,7 +406,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .interview {
@@ -430,7 +430,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 46.5px;
 }
 .glide1 {
@@ -440,7 +440,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 17.85px;
-  color: #f2f2e2;
+  color: #2F4858;
 }
 .observe {
   font-family: 'Switzer-Medium';
@@ -448,7 +448,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .observe1 {
@@ -457,7 +457,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .interview1 {
@@ -475,7 +475,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 46.5px;
 }
 .slide1 {
@@ -485,7 +485,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 17.85px;
-  color: #f2f2e2;
+  color: #2F4858;
 }
 .item1:nth-of-type(5) {
   padding-top: 50px;
@@ -499,7 +499,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .consol1 {
@@ -508,7 +508,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .interview2 {
@@ -526,7 +526,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 46.5px;
 }
 .fret1 {
@@ -536,7 +536,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 17.85px;
-  color: #f2f2e2;
+  color: #2F4858;
 }
 .item2:nth-of-type(5) {
   padding-top: 50px;
@@ -551,7 +551,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .fathom1 {
@@ -561,7 +561,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .interview3 {
@@ -579,7 +579,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 37.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 46.5px;
 }
 .capo1 {
@@ -589,7 +589,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 17.85px;
-  color: #f2f2e2;
+  color: #2F4858;
 }
 .item2:nth-of-type(5) {
   padding-top: 50px;
@@ -605,7 +605,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .readings {
@@ -625,7 +625,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 37.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 46.5px;
 }
 .appearance {
@@ -642,7 +642,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .stretch {
@@ -681,7 +681,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 30px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 
 }
@@ -702,7 +702,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 75px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 } 
 .ultrapara1 {
@@ -714,7 +714,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 72px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .aligner {
@@ -731,7 +731,7 @@ html.lenis {
     text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 72px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 23.5px;
 }
 .modular:nth-of-type(2),
@@ -753,7 +753,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
   font-size: 30.85px;
-  color: #f2f2e2;
+  color: #2F4858;
   line-height: 40.5px;
 }
 .ferry {
@@ -822,9 +822,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -864,7 +864,6 @@ a {
         font-size: 75px;
         line-height: 70px;
         user-select: none;  
-        color: #f2f2e2;
     }
     .bodycopy {
       
@@ -872,7 +871,6 @@ a {
         font-style: normal;
         font-size: 17.2px;
         padding-top: 50px;
-        color: #f2f2e2;
         line-height: 23.5px;
         padding-bottom: 100px;
     }
@@ -947,7 +945,6 @@ a {
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
   padding-top: 74.5px;
-  color: #f2f2e2;
   line-height: 23.5px;
 }
 .dataimg {
@@ -959,7 +956,6 @@ a {
 .forbesind {
   width: 980px;
   font-size: 27.85px;
-  color: #f2f2e2;
   line-height: 40.5px;
 }
 .forbescontent {
@@ -1020,7 +1016,6 @@ a {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 27.85px;
-  color: #f2f2e2;
   line-height: 40.5px;
 }
 .observe {
@@ -1058,7 +1053,6 @@ a {
 .capo {
   padding-top: 310px;
   font-size: 27.85px;
-  color: #f2f2e2;
   line-height: 38.5px;
 }
 .fret {
@@ -1095,7 +1089,6 @@ a {
   padding-top: 50px;
   width: 660px;
   font-size: 18.85px;
-  color: #f2f2e2;
   line-height: 23.5px;
 }
 .frontier {

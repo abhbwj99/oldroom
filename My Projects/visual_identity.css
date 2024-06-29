@@ -6,7 +6,7 @@
 }
 body {
     line-height: 1.5px;
-    background-color: #2F4858;
+    background-color: #f2f2e2;
     cursor: none;
     user-select: none;
     overflow-y: hidden; 
@@ -36,12 +36,12 @@ html.lenis {
   .cursor-dot {
     width: 10px;
     height: 10px;
-    background-color:hsl(59, 91.9%, 71.0%)
+    background-color:hsl(180, 100%, 25%)
   }
   .cursor-outline {
     width: 35px;
     height: 35px;
-    border: 2.3px solid hsl(59, 91.9%, 71.0%)
+    border: 2.3px solid hsl(180, 100%, 25%)
   }
   .cursor-outline,
   .cursor-dot {
@@ -175,7 +175,7 @@ html.lenis {
     font-size: 85px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .bodycopy {
   
@@ -185,7 +185,7 @@ html.lenis {
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
     padding-bottom: 50px;
 }
@@ -198,7 +198,7 @@ html.lenis {
     text-decoration: none;
     font-size: 18.85px;
     padding-top: 50px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .item:nth-of-type(4) {
@@ -225,7 +225,7 @@ html.lenis {
     padding-left : 100px;
 }
 .item1:nth-of-type(1) {
-    padding-top: 120px;
+    padding-top: 133px;
     padding-left: 44px;
 }
 .item11 {
@@ -240,12 +240,12 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
     justify-self: start;
 }
 .container3 {
-    margin-top: 0px;
+    margin-top: -13px;
     margin-left: 80px;
     display: grid;
     padding-right: 300px;
@@ -261,7 +261,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 
@@ -273,7 +273,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .texting {
@@ -281,7 +281,7 @@ html.lenis {
     font-size: 85px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .textbody {
     width: 477px;
@@ -291,7 +291,7 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .headtext {
@@ -318,7 +318,7 @@ html.lenis {
     column-gap: 60px;
 }
 .basker {
-    padding-left: 80px;
+    padding-left: 99px;
 }
 .movingimg {
     margin-top: 300px;
@@ -326,7 +326,8 @@ html.lenis {
     display: grid;
     grid-template-columns: 700px 700px;
     grid-template-rows: 500px 500px;
-    row-gap: 140px;
+    row-gap: 152px;
+    column-gap: 29px;
 }
 .head1 {
     padding-left: 43px;
@@ -335,10 +336,10 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .head2 {
     padding-left: 44px;
@@ -348,31 +349,27 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
-.head3 {
+/*.head3 {
      
-    padding-left: 10px;
+    padding-left: 0px;
     text-align: left;
     font-family: 'Switzer-Medium';
   font-weight: 500;
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 33px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
-}
+    color: #2F4858;
+}*/
 .ideate:nth-of-type(3) {
     padding-left: 40px;
-}
-.ideate:nth-of-type(4) {
-    padding-left: 50px;
-    padding-top: 49px;
 }
 .divvid {
     padding-bottom: 50px;
@@ -385,7 +382,7 @@ html.lenis {
     letter-spacing: -3px;
     line-height: 80px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 .manual {
     margin-top: 100px;
@@ -401,7 +398,7 @@ html.lenis {
     font-size: 65px;
     line-height: 59px;
     user-select: none;  
-    color: #f2f2e2;
+    color: #2F4858;
 }
 
 .origin {
@@ -413,7 +410,7 @@ html.lenis {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     line-height: 23.5px;
 }
 .testsizing {
@@ -429,20 +426,20 @@ html.lenis {
   font-style: normal;
   text-rendering: optimizeLegibility;
     font-size: 18.85px;
-    color: #f2f2e2;
+    color: #2F4858;
     transition: transform 0.3s ease;
     line-height: 23.5px;
 }
 .download_manual:hover {
     transform: scale(1.5);
     z-index: 1;
-    text-shadow: 0 0 7.8px #f2f2e2;
+    text-shadow: 0 0 7.8px #2F4858;
   }
 .ruler {
     padding-left: 100px;
 }
 .divvid {
-    padding-left: 10px;
+    padding-left: 0px;
 }
 .letterhead {
     padding-left: 89px;
@@ -487,9 +484,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -529,7 +526,6 @@ a {
         font-size: 75px;
         line-height: 70px;
         user-select: none;  
-        color: #f2f2e2;
     }
     .bodycopy {
       
@@ -620,7 +616,6 @@ font-weight: 500;
 font-style: normal;
 text-rendering: optimizeLegibility;
   font-size: 17.2px;
-  color: #f2f2e2;
   line-height: 23.5px;
 }
 .constant:nth-of-type(2) {
@@ -631,7 +626,6 @@ font-weight: 500;
 font-style: normal;
 text-rendering: optimizeLegibility;
   font-size: 17.2px;
-  color: #f2f2e2;
   line-height: 23.5px;
 }
 .letterhead {

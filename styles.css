@@ -239,7 +239,8 @@ video {
     font-family : 'Bebas Neue', sans-serif;
     font-size: 125px;
     user-select: none;  
-    color: teal;
+   /* color: teal; */
+    color: #2F4858;
     justify-content: left;
 }
 .pre_container{
@@ -270,11 +271,26 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 21px; 
-    color: teal;
+    /*color: teal;*/
+    color: #2F4858;
     user-select: none;
     letter-spacing: 0.7px;
     padding-left: 6px;
     line-height: 28px;
+}
+.header_content_next{
+  font-family: 'Switzer-Semibold';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 21px; 
+  /*color: teal;*/
+  color: #2F4858;
+  user-select: none;
+  letter-spacing: 0.7px;
+  padding-left: 6px;
+  line-height: 28px;
 }
 .message{
    font-family : 'Bebas Neue', sans-serif; 
@@ -285,6 +301,7 @@ video {
     align-self: start;
     line-height: 104.4px;
     user-select: none;  
+    /*color: teal;*/
     color: #f2f2e2;
     /*transition: color 0.3 ease;*/
    /* opacity: 20%;
@@ -303,7 +320,8 @@ video {
  
     align-self: end;
     padding-left: 40px;
-    color: teal;
+    /*color: teal;*/
+    color: #2F4858;
     font-size: 85.7px;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -356,7 +374,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   cursor: pointer;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   transition: color 0.3s ease;
 }
 /*.styling:hover {
@@ -370,7 +389,8 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
   cursor: pointer;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   transition: color 0.3s ease;
 }
 /*
@@ -385,7 +405,8 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
   cursor: none;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   transition: color 0.3s ease;
 }
 /*
@@ -400,7 +421,8 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
   cursor: pointer;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   transition: color 0.3s ease;
 }
 /*.styling3:hover {
@@ -414,7 +436,8 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
   cursor: pointer;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   transition: color 0.3s ease;
 }
 /*.styling4:hover {
@@ -434,18 +457,19 @@ video {
   font-size: 22.2px;
   line-height: 28.6px;
   padding-top: 30px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   user-select: none;
   transition: color 0.3s ease;
 }
 .undermenu:hover {
-  color: #005354;
+  color: #2F4858;
 }
 .undermenu1,
 .undermenu3,
 .undermenu4:hover {
   cursor: none;
-  color: #005354;
+  color: #2F4858;
 }
 /*.undermenu2:hover {
   cursor: none;
@@ -463,7 +487,8 @@ video {
     text-rendering: optimizeLegibility;
   font-size: 22.2px;
   line-height: 28.6px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   cursor: pointer;
 }
 .semii{
@@ -474,33 +499,39 @@ video {
     text-rendering: optimizeLegibility;
   font-size: 22.2px;
   line-height: 28.6px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   cursor: pointer;
 }
 .semi:hover{
   font-weight: 600;
   cursor: none;
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .semi1:hover {
   font-weight: 600;
   cursor: none;
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .semi2:hover{
   font-weight: 600;
   cursor: none;
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .semi3:hover{
   font-weight: 600;
   cursor: none;
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .semi4:hover{
   font-weight: 600;
   cursor: none;
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .trimmer:nth-of-type(1),
 .trimmer:nth-of-type(2),
@@ -521,7 +552,8 @@ video {
 .trimmer:nth-of-type(2),
 .trimmer:nth-of-type(4),
 .trimmer:nth-of-type(5):hover{
-  color: #005354;
+  /*color: teal;*/
+  color: #2F4858;
 }
 /*.trimmer:nth-of-type(3):hover{
   color: #005354;
@@ -537,7 +569,8 @@ video {
   padding-top: 10px;
   line-height: 28px;
   /* color: rgb(255, 255, 159);*/
-   color: teal;
+   /*color: teal;*/
+   color: #2F4858;
    user-select: none;
 }
 .heading {
@@ -548,7 +581,8 @@ video {
   line-height: 72.4px;
  /* color: rgb(255, 255, 159);*/
  /* color: #fffff0;*/
- color: teal;
+/*color: teal;*/
+color: #2F4858;
   user-select: none;
 }
 .Behance-Logo {
@@ -565,12 +599,14 @@ video {
      font-style: normal;
      font-size: 20.2px;
      line-height: 28.6px;*/
-     color: teal;
+    /*color: teal;*/
+    color: #2F4858;
      transition: color 0.3;
      user-select: none;
 }
 .para2 {
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-display: swap;
@@ -586,7 +622,8 @@ video {
   font-display: swap;
   font-style: normal;
   font-size: 20px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   justify-content: start;
   text-decoration: none;
   user-select: none;
@@ -645,7 +682,8 @@ video {
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 30.85px;
-    color: teal;
+    /*color: teal;*/
+    color: #2F4858;
     padding-bottom: 20px;
     line-height: 40.5px;
 }
@@ -660,7 +698,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .adaptation:nth-of-type(2) {
@@ -708,7 +747,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .victor.image7 {
@@ -725,11 +765,13 @@ video {
 }
 .emailid {
   padding-top: 8px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .contact {
   padding-top: 8px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
 }
 .foot:nth-of-type(2) {
   font-family: 'Vercetti-Regular', sans-serif;
@@ -760,7 +802,8 @@ video {
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 30.85px; 
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 40.5px;
 }
 .glossy1,
@@ -772,7 +815,8 @@ video {
   font-size: 18.85px;
   text-align: left;
   padding-top: 30px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .glossyly {
@@ -783,7 +827,8 @@ video {
   font-size: 18.85px;
   text-align: left;
   padding-top: 180px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .imagegrid {
@@ -952,7 +997,8 @@ video {
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 25.85px;
-  color: teal;
+ /*color: teal;*/
+ color: #2F4858;
   line-height: 40.5px;
 }
 .portraitbody {
@@ -963,7 +1009,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .exhibitionbody {
@@ -974,7 +1021,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: teal;
+  /*color: teal;*/
+    color: #2F4858;
   line-height: 23.5px;
 }
 .bearer1 {
@@ -984,7 +1032,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 25.85px;
-  color: teal;
+  /*color: teal;*/
+    color: #2F4858;
   line-height: 40.5px;
 }
 .bannerflexi {
@@ -1000,7 +1049,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 25.85px;
-  color: teal;
+  /*color: teal;*/
+    color: #2F4858;
   line-height: 40.5px;
 }
 .productbody {
@@ -1010,7 +1060,8 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 18.85px;
-  color: teal;
+  /*color: teal;*/
+  color: #2F4858;
   line-height: 23.5px;
 }
 .pre_container {
@@ -1096,6 +1147,15 @@ video {
     src: url('fonts/Switzer-Medium.woff2') format('woff2'),
          url('fonts/Switzer-Medium.woff') format('woff'),
          url('fonts/Switzer-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  @font-face {
+    font-family: 'Switzer-Semibold';
+    src: url('fonts/Switzer-Semibold.woff2') format('woff2'),
+         url('fonts/Switzer-Semibold.woff') format('woff'),
+         url('fonts/Switzer-Semibold.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -1237,7 +1297,6 @@ video {
   font-family: 'Vercetti-Regular', sans-serif;
   font-style: normal;
   font-size: 14.85px;
-  color: teal;
   user-select: none;
   letter-spacing: 0.7px;
   padding-left: 6px;
@@ -1273,13 +1332,11 @@ video {
   font-style: normal;
   font-size: 17.2px;
   line-height: 25.6px;
-  color: teal;
   transition: color 0.3;
   user-select: none;
 }
 .para2 {
   width: 310px;
-  color: teal;
   font-family: 'Vercetti-Regular', sans-serif;
   padding-bottom: 70px;
   font-size: 17.2px; 
@@ -1293,7 +1350,6 @@ video {
   font-size: 17.2px;
   line-height: 25.6px;
   /* color: rgb(255, 255, 159);*/
-   color: teal;
    user-select: none;
 }
 .heading {
@@ -1303,14 +1359,12 @@ video {
   font-family: 'Bebas Neue', sans-serif;
   line-height: 66.4px;
  /* color: rgb(255, 255, 159);*/
-  color: teal;
   user-select: none;
 }
 .download_internship {
   font-family: 'Vercetti-Regular', sans-serif;
   font-style: normal;
   font-size: 17px;
-  color: teal;
   justify-content: start;
   text-decoration: none;
   user-select: none;
@@ -1334,7 +1388,6 @@ video {
     font-family : 'Bebas Neue', sans-serif;
     font-size: 105px;
     user-select: none;  
-    color: teal;
     justify-content: left;
 }
 .trim {
@@ -1418,7 +1471,6 @@ justify-content: left;
     font-style: normal;
     text-rendering: optimizeLegibility;
     font-size: 17.2px;
-    color: teal;
     line-height: 25.6px;
   }
   .victor{
@@ -1545,7 +1597,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 16.2px;
-  color: teal;
   line-height: 20.6px;
 }
 .imginfo7 {
@@ -1607,7 +1658,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 25.85px;
-  color: teal;
   line-height: 40.5px;
 }
 .portraitbody {
@@ -1618,7 +1668,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 17.2px;
-  color: teal;
   line-height: 23.5px;
 }
 .exhibitionbody {
@@ -1629,7 +1678,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 17.2px;
-  color: teal;
   line-height: 23.5px;
 }
 .bannerflexi {
@@ -1644,7 +1692,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 17.2px;
-  color: teal;
   line-height: 23.5px;
 }
 .imagegrid2 {
@@ -1685,7 +1732,6 @@ justify-content: left;
   font-size: 22px; 
   align-self: start;
   user-select: none;
-  color: teal;
   transition: color 0.3s;
 }  
 .About_Me:hover {
@@ -1697,7 +1743,6 @@ justify-content: left;
   font-size: 22px; 
   align-self: start;
   user-select: none;
-  color: teal;
   transition: color 0.3s;
 }
 .foot:nth-of-type(1) {
@@ -1745,7 +1790,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 14px; 
-  color: teal;
   user-select: none;
   letter-spacing: 0.1px;
   padding-left: 0px;
@@ -1767,7 +1811,6 @@ justify-content: left;
 }
 .item:nth-of-type(1){
   align-self: end;
-  color: teal;
   font-size: 64px;
   line-height: 60px;
   font-family: 'Bebas Neue', sans-serif;
@@ -1798,13 +1841,11 @@ justify-content: left;
   font-style: normal;
   font-size: 20.2px;
   line-height: 28.6px;*/
-  color: teal;
   transition: color 0.3;
   user-select: none;
 }
 .para2 {
   max-width: 172px;
-  color: teal;
   font-family: 'Switzer-Medium';
   font-weight: 500;
   font-display: swap;
@@ -1841,7 +1882,6 @@ justify-content: left;
   padding-top: 10px;
   line-height: 15.6px;
   /* color: rgb(255, 255, 159);*/
-   color: teal;
    user-select: none;
 }
 .heading {
@@ -1862,7 +1902,6 @@ justify-content: left;
   font-display: swap;
   font-style: normal;
   font-size: 17px;
-  color: teal;
   justify-content: start;
   text-decoration: none;
   user-select: none;
@@ -1882,7 +1921,6 @@ justify-content: left;
     font-family : 'Bebas Neue', sans-serif;
     font-size: 85px;
     user-select: none;  
-    color: teal;
     justify-content: left;
 }
 .trim {
@@ -1920,7 +1958,6 @@ justify-content: left;
     text-rendering: optimizeLegibility;
   font-size: 16px;
   line-height: 22.6px;
-  color: teal;
   cursor: pointer;
 }
 .semi{
@@ -1983,7 +2020,6 @@ justify-content: left;
   font-size: 16px;
   line-height: 15.6px;
   padding-top: 0px;
-  color: teal;
   user-select: none;
   transition: color 0.3s ease;
 }
@@ -1993,27 +2029,22 @@ justify-content: left;
 .styling{
   font-size: 22px;
   cursor: pointer;
-  color: teal;
 }
 .styling1{
   font-size: 22px;
   cursor: pointer;
-  color: teal;
 }
 .styling2{
   font-size: 22px;
   cursor: pointer;
-  color: teal;
 }
 .styling3{
   font-size: 22px;
   cursor: pointer;
-  color: teal;
 }
 .styling4{
   font-size: 22px;
   cursor: pointer;
-  color: teal;
 }
 .tile:nth-of-type(1):hover,
 .tile:nth-of-type(1):active,
@@ -2102,7 +2133,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 22px;
-  color: teal;
   padding-bottom: 18px;
 }
 .brighton {
@@ -2113,7 +2143,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 13px;
-  color: teal;
   line-height: 15.6px;
 }
 /*.adaptation:nth-of-type(2) {
@@ -2197,7 +2226,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 13px;
-  color: teal;
   line-height: 15.6px;
 }
 .adaptation:nth-of-type(2),
@@ -2236,7 +2264,6 @@ justify-content: left;
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 22px; 
-  color: teal;
 }
 .glossy1 {
   padding-top: 10px;
@@ -2247,7 +2274,6 @@ justify-content: left;
   text-align: left;
   font-size: 13px;
   line-height: 15.6px; 
-  color: teal;
 }
 .glossyly {
   font-family: 'Switzer-Medium';
@@ -2269,7 +2295,6 @@ justify-content: left;
   text-rendering: optimizeLegibility;
   text-align: left;
   font-size: 22px;
-  color: teal;
 }
 .portraitbody {
   padding-top: 10px;
@@ -2279,7 +2304,6 @@ justify-content: left;
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 13px;
-  color: teal;
   line-height:15.6px;
 }
 .imagegrid {
@@ -2332,13 +2356,11 @@ justify-content: left;
   text-rendering: optimizeLegibility;
   padding-left: 50px;
   font-size: 22px;
-  color: teal;
 }
 .exhibitionbody {
   padding-top: 10px;
   width: 325px;
   font-size: 13px;
-  color: teal;
   line-height: 15.6px;
 }
 .bannerflexi {
@@ -2354,7 +2376,6 @@ justify-content: left;
   width: 320px;
   padding-top: 10px;
   font-size: 13px;
-  color: teal;
   line-height: 15.6px;
 }
 .imagegrid2 {
@@ -2391,7 +2412,6 @@ justify-content: left;
   font-size: 13px;
   text-align: left;
   padding-top: 10px;
-  color: teal;
   line-height: 15.6px;
 }
 .imagegrid3 {
@@ -2439,23 +2459,19 @@ justify-content: left;
   font-size: 15px; 
   align-self: start;
   user-select: none;
-  color: teal;
   transition: color 0.3s;
 }  
 .emailid {
   padding-top: 8px;
-  color: teal;
 }
 .contact {
   padding-top: 8px;
-  color: teal;
 }
 .foot:nth-of-type(2) {
   padding-top: 0px;
   padding-bottom: 50px;
   padding-left: 4px;
   font-family: 'Switzer-Medium';
-  color: teal;
   font-size: 15px;
   line-height: 13px;
 }
@@ -2478,7 +2494,50 @@ justify-content: left;
 }
   /* Add more styles as needed */
 }
+@media screen and (max-width: 1280px) {
+  /* Your CSS rules for the MacBook Air go here */
+  *
+    {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
 
+    .pre_container{
+  
+      width: 1000px;
+      margin-left: 110px; 
+      margin-top: 136px;
+      display: grid;
+      grid-template-columns: 590px 390px;
+      column-gap: 400px;
+  }
+  .data-lenis-prevent{
+
+    max-width: 1020px;
+    margin-left: 160px;
+    margin-top: 150px;
+    display: grid;
+    position: absolute;
+    align-items: start;
+   /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: 860px 400px;
+    column-gap: 227px;
+    grid-auto-columns: minmax(50px, auto); 
+}
+.para1{
+  width: 310px;
+  /*  padding-top: 20px; */
+  align-self: start;
+  max-height: 300px;
+  font-family: 'Vercetti-Regular', sans-serif;
+  font-style: normal;
+  font-size: 17.2px;
+  line-height: 25.6px;
+  transition: color 0.3;
+  user-select: none;
+}
+  }
  /* @media screen and (max-width: 1279px) and (min-width: 1024px) {
     
   } */
