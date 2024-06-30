@@ -28,7 +28,7 @@ var mY_RectANGLE = [];
 var canvas;
 function setup()
 {
-    canvas = createCanvas(windowWidth,1800);
+    canvas = createCanvas(windowWidth,1783);
     canvas.position(0,0);
     canvas.style('z-index','-1')
     for(var i = 0; i < 10; i++)

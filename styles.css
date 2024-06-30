@@ -111,6 +111,7 @@ video {
   border-radius: 10%;
   width: 250px;
   height: 250px;
+  box-shadow: 0.4px 1px 2px #0F110C;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -123,7 +124,7 @@ video {
 .tile:hover {
   border-radius: 10%;
   border-color: #2F4858;
-  transform: scale(1.10);
+  transform: scale(1.078);
   z-index: 1;
   box-shadow: 0 2px 3.6px #0F110C;
 }
@@ -348,7 +349,7 @@ video {
   user-select: none;
 }
 .item:nth-of-type(4) {
-  padding-top: 30px;
+  padding-top: 100px;
 }
 .trim {
 
@@ -369,8 +370,8 @@ video {
   transition: color #FFFF9f;
 }
 .styling{
-  font-family: 'Switzer-Medium';
-  font-weight: 500;
+  font-family: 'Switzer-Semibold';
+  font-weight: 600;
   font-display: swap;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -384,8 +385,8 @@ video {
   color: #005354;
 }*/
 .styling1{
-  font-family: 'Switzer-Medium';
-    font-weight: 500;
+  font-family: 'Switzer-Semibold';
+    font-weight: 600;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -400,8 +401,8 @@ video {
   color: #005354;
 }*/
 .styling2{
-  font-family: 'Switzer-Medium';
-    font-weight: 500;
+  font-family: 'Switzer-Semibold';
+    font-weight: 600;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -416,8 +417,8 @@ video {
   color: #005354;
 }*/
 .styling3{
-  font-family: 'Switzer-Medium';
-    font-weight: 500;
+  font-family: 'Switzer-Semibold';
+    font-weight: 600;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -431,8 +432,8 @@ video {
   color: #005354;
 }*/
 .styling4{
-  font-family: 'Switzer-Medium';
-    font-weight: 500;
+  font-family: 'Switzer-Semibold';
+    font-weight: 600;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -463,9 +464,9 @@ video {
   user-select: none;
   transition: color 0.3s ease;
 }
-.undermenu:hover {
+/*.undermenu:hover {
   color: #2F4858;
-}
+}*/
 .undermenu1,
 .undermenu3,
 .undermenu4:hover {
@@ -492,6 +493,9 @@ video {
   color: #2F4858;
   cursor: pointer;
 }
+.underline {
+  text-decoration: underline;
+}
 .semii{
   font-family: 'Switzer-Medium';
     font-weight: 500;
@@ -507,7 +511,6 @@ video {
 .semi:hover{
   font-weight: 600;
   cursor: none;
-  /*color: teal;*/
   color: #2F4858;
 }
 .semi1:hover {
@@ -567,7 +570,7 @@ video {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-size: 21px; 
-  padding-top: 10px;
+  padding-top: 40px;
   line-height: 28px;
   /* color: rgb(255, 255, 159);*/
    /*color: teal;*/
@@ -632,7 +635,7 @@ color: #2F4858;
   transition: color 0.3s ease;
 }
 .downloaded {
-  padding-top: 15px;
+  padding-top: 0px;
 }
 .download_internship:hover {
   font-weight: 600;

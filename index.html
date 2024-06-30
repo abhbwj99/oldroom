@@ -91,7 +91,7 @@
   </div>
   <div class="trim">
    <div class="trimmer">
-    <p><a class="styling" href="My Projects/my_projects.html" style="text-decoration: none;">MY PROJECTS</p>
+    <p><a class="styling" href="My Projects/my_projects.html"style="text-decoration: none">MY PROJECTS</p>
       <div class="undermenu">
         <p><a class="semi" href="/oldroom/My Projects/my_projects.html" style="text-decoration: none;">Semiotics</a></p>
         <p><a class="semi" href="/oldroom/My Projects/visual_identity.html" style="text-decoration: none;">Visual Identity Design</a></p>
@@ -149,7 +149,7 @@
  <div class="trimmer">
   <p class="styling2"><!--<a class="styling2" href="my_projects.html" style="text-decoration: none;">-->BLOG POSTS</p></a>
   <div class="undermenu2">
-    <p><!--<a class="semi2" href="semiotics.html" style="text-decoration: none;">--><s>First Guitar</s></a></p>
+    <p><a class="semi2" href="https://abhaybharadwaj33.wixsite.com/website/post/starting-out-from-scratch" style="text-decoration: none;">First Guitar</a></p>
     <p><!--<a class="semi2" href="semiotics.html" style="text-decoration: none;">--><s>Heavy Metal</s></a></p>
     <p><!--<a class="semi2" href="semiotics.html" style="text-decoration: none;">--><s>Social Media</s></a></p>
     <p></br></br> </br></p>
@@ -492,15 +492,28 @@
   <script>
 gsap.registerPlugin(ScrollTrigger);
 document.addEventListener('DOMContentLoaded', function() {
-    const paragraphs = document.querySelectorAll('.para1, .para2, .item:nth-of-type(1)');
+    const paragraphs = document.querySelectorAll('.para1, .para2, .header_content, .header_content_next');
     paragraphs.forEach((paragraph, index) => {
         gsap.from(paragraph, {
             opacity: 0,
             y: 70,
             scrollTrigger: {
                 trigger: paragraph,
-                start: 'top 80%',
-                end: 'top 20%',
+                start: 'top 76%',
+                end: 'top 47%',
+                scrub: true,
+            },
+        });
+    });
+    const paragraphss = document.querySelectorAll('.item:nth-of-type(1)');
+    paragraphss.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 50,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 76%',
+                end: 'top 47%',
                 scrub: true,
             },
         });
@@ -521,12 +534,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const coaster = document.querySelectorAll('.heading');
     coaster.forEach((paragraph, index) => {
         gsap.from(paragraph, {
-            opacity: 0.2,
+            opacity: 0,
             y: 60,
             scrollTrigger: {
                 trigger: paragraph,
-                start: 'top 80%',
-                end: 'top 20%',
+                start: 'top 86%',
+                end: 'top 47%',
                 scrub: true,
             },
         });
@@ -534,7 +547,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const coasterr = document.querySelectorAll('.BIBLIOTHECA');
     coasterr.forEach((paragraph, index) => {
         gsap.from(paragraph, {
-            opacity: 0.2,
+            opacity: 0,
             y: 60,
             scrollTrigger: {
                 trigger: paragraph,
@@ -547,17 +560,30 @@ document.addEventListener('DOMContentLoaded', function() {
     const paragraphs2 = document.querySelectorAll('.bodie');
     paragraphs2.forEach((paragraph, index) => {
         gsap.from(paragraph, {
-            opacity: 0.2,
-            y: 60,
+            opacity: 0,
+            y: 80,
             scrollTrigger: {
                 trigger: paragraph,
                 start: 'top 80%',
-                end: 'top 20%',
+                end: 'top 60%',
                 scrub: true,
             },
         });
     });
-    const rabbit = document.querySelectorAll('.trim');
+    const paragraphs22 = document.querySelectorAll('.downloaded');
+    paragraphs22.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 50,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 60%',
+                scrub: true,
+            },
+        });
+    });
+    const rabbit = document.querySelectorAll('.trim, .tileselector');
     rabbit.forEach((paragraph, index) => {
         gsap.from(paragraph, {
             opacity: 0,
