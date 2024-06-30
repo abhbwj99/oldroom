@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type = "text/javascript" src = "/oldroom/libraries/p5.min.js"></script>
-    <script type = "text/javascript" src = "/oldroom/libraries/p5.gui.js"></script>
-    <script type = "text/javascript" src = "/oldroom/libraries/p5.js"></script>
+    <script type = "text/javascript" src = "/libraries/p5.min.js"></script>
+    <script type = "text/javascript" src = "/libraries/p5.gui.js"></script>
+    <script type = "text/javascript" src = "/libraries/p5.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha256-ZfbBN0iwyNj56r0Dc6EwrCk7Pxa/NKqpRtlTmANyuTI=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/split-type@0.3.3/umd/index.min.js" integrity="sha256-OmZnkcU7M8z8C9pRsfZoP8drNRQOxQYPPGvI1ann+7Q=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js" integrity="sha384-1WGQkFnxW1xGT/hA+gFwSPtqEcYgEcv19oBIue7bnFPZo4zeeFhqBLWXwL7IBkY9" crossorigin="anonymous"></script>
-  <script src="/oldroom/pageLayout.js"></script>
+  <script src="/pageLayout.js"></script>
 <!--<script src="/crosshair.js"></script> -->
     <title>oldroom</title>
     <link rel="website icon" type="png" href="Images/webicon4.png">
@@ -544,8 +544,82 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         });
     });
-    const coasterr = document.querySelectorAll('.BIBLIOTHECA');
+    const coasterr = document.querySelectorAll('.brighton');
     coasterr.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 90,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 60%',
+                end: 'top 30%',
+                scrub: true,
+            },
+        });
+    });
+    const coasterrimgg = document.querySelectorAll('.jagger, .jagger1, .jagger2, .jagger3');
+    coasterrimgg.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 30%',
+                scrub: true,
+            },
+        });
+    });
+    const coasterrnxt = document.querySelectorAll('.jagger4, .jagger5, .jagger6, .jagger7');
+    coasterrnxt.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 25%',
+                scrub: true,
+            },
+        });
+    });
+    const coasterrnxttime = document.querySelectorAll('.jagger8, .jagger9, .jagger10, .jagger11');
+    coasterrnxttime.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 25%',
+                scrub: true,
+            },
+        });
+    });
+    const coasterrtag = document.querySelectorAll('.imginfo, .imginfo1, .imginfo2, .imginfo3');
+    coasterrtag.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 10,
+            scrollTrigger: {
+                trigger: paragraph,
+                scrub: true,
+            },
+        });
+    });
+    const coasterrtagfurther = document.querySelectorAll('.imginfo4, .imginfo5, .imginfo6, .imginfo7, .imginfo8');
+    coasterrtagfurther.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 10,
+            scrollTrigger: {
+                trigger: paragraph,
+                scrub: true,
+            },
+        });
+    });
+    const coasterrteas = document.querySelectorAll('.yetihead');
+    coasterrteas.forEach((paragraph, index) => {
         gsap.from(paragraph, {
             opacity: 0,
             y: 60,
@@ -579,6 +653,45 @@ document.addEventListener('DOMContentLoaded', function() {
                 trigger: paragraph,
                 start: 'top 80%',
                 end: 'top 60%',
+                scrub: true,
+            },
+        });
+    });
+    const paragraphs_graphy = document.querySelectorAll('.glossy, .glossy1');
+    paragraphs_graphy.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 60%',
+                scrub: true,
+            },
+        });
+    });
+    const paragraphs_body = document.querySelectorAll('.PORTRAITS, .portraitbody');
+    paragraphs_body.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 80%',
+                end: 'top 60%',
+                scrub: true,
+            },
+        });
+    });
+    const paragraphs_grid = document.querySelectorAll('.imagegrid');
+    paragraphs_grid.forEach((paragraph, index) => {
+        gsap.from(paragraph, {
+            opacity: 0,
+            y: 80,
+            scrollTrigger: {
+                trigger: paragraph,
+                start: 'top 70%',
+                end: 'top 20%',
                 scrub: true,
             },
         });
