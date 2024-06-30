@@ -121,10 +121,11 @@ video {
 }
 
 .tile:hover {
-  border-radius: 6%;
-  transform: scale(1.35);
+  border-radius: 10%;
+  border-color: #2F4858;
+  transform: scale(1.10);
   z-index: 1;
-  box-shadow: 0 0 20px #2F4858;
+  box-shadow: 0 2px 3.6px #0F110C;
 }
 
 .tile a {
@@ -141,7 +142,7 @@ video {
   top: 13%; /* Adjust the vertical position of the text */
   left: 30%; /* Adjust the horizontal position of the text */
   transform: translate(-50%, -50%); /* Center the text within the tile */
-  color: teal; /* Text color */
+  color: #2F4858; /* Text color */
   padding: 5px 10px; /* Padding around the text */
   border-radius: 5px; /* Border radius for the background */
   z-index: 1; /* Ensure the text is above the image */
@@ -213,7 +214,7 @@ video {
   top: 13%; /* Adjust the vertical position of the text */
   left: 30%; /* Adjust the horizontal position of the text */
   transform: translate(-50%, -50%); /* Center the text within the tile */
-  color: teal; /* Text color */
+  color: #2F4858; /* Text color */
   padding: 5px 10px; /* Padding around the text */
   border-radius: 5px; /* Border radius for the background */
   z-index: 1; /* Ensure the text is above the image */
@@ -755,10 +756,13 @@ color: #2F4858;
   padding-right: 8px;
 }
 .adaptation img {
-  transition: color 0.3s ease-in-out;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .adaptation img:hover {
-  filter: drop-shadow(0 0 10px rgba(47, 72, 88, 1));
+  transform: scale(1.02);
+  filter: drop-shadow(0 2px 3.6px rgba(47, 72, 88, 1));
+
 }
 .reachme {
   user-select: none;
