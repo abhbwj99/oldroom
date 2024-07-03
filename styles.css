@@ -2559,7 +2559,478 @@ justify-content: left;
 }
   /* Add more styles as needed */
 }
-@media screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
+  /* Your CSS rules for the MacBook Air go here */
+  *
+    {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pre_container{
+  
+      width: 1000px;
+      margin-left: 110px; 
+      margin-top: 136px;
+      display: grid;
+      grid-template-columns: 496px 269px;
+      column-gap: 450px;
+  }
+  .data-lenis-prevent{
+
+    max-width: 1020px;
+    margin-left: 110px;
+    margin-top: 150px;
+    display: grid;
+    position: absolute;
+    align-items: start;
+   /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: 661px 338px;
+    column-gap: 236px;
+    grid-auto-columns: minmax(50px, auto); 
+}
+.item:nth-of-type(3){
+  max-width: 660px;
+  display:grid;
+  grid-template-columns: 280px 280px;
+  gap: 65px;
+  padding-left: 0px;
+  padding-top: 10px;
+  align-self: start;
+  font-family: 'Vercetti-Regular', sans-serif;
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 14px; 
+  line-height: 20.6px;
+  user-select: none;
+  }
+.para1{
+  width: 299px;
+  /*  padding-top: 20px; */
+  align-self: start;
+  max-height: 300px;
+  font-family: 'Switzer-Medium';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.6px;
+  transition: color 0.3;
+  user-select: none;
+}
+.para2 {
+  width: 318px;
+  color: #2F4858;
+  align-self: start;
+  max-height: 300px;
+  font-family: 'Switzer-Medium';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.6px;
+  transition: color 0.3;
+  user-select: none;
+  padding-bottom: 70px;
+}
+.header_content{
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 14.5px; 
+  letter-spacing: 0.3px;
+  padding-left: 6px;
+  line-height: 21.4px;
+}
+.header_content_next{
+font-weight: 600;
+font-display: swap;
+font-style: normal;
+text-rendering: optimizeLegibility;
+font-size: 14.5px; 
+letter-spacing: 0.3px;
+padding-left: 6px;
+padding-bottom: 10px;
+line-height: 21.4px;
+}
+.message {
+  color: #f2f2e2;
+  font-display: swap;
+  font-style: normal;
+  font-size: 108px;
+  line-height: 94.4px;
+}
+.bodie{
+  align-self: end;
+  font-family: 'Switzer-Medium';
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 18px; 
+  padding-top: 26px;
+  line-height: 24.6px;
+  /* color: rgb(255, 255, 159);*/
+   /*color: teal;*/
+   color: #2F4858;
+   user-select: none;
+}
+.heading {
+  align-self: end;
+  /* font-family: 'Source Code Pro', monospace; */
+  font-size: 76.7px;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 72.4px;
+ /* color: rgb(255, 255, 159);*/
+ /* color: #fffff0;*/
+/*color: teal;*/
+color: #2F4858;
+  user-select: none;
+}
+.item:nth-of-type(4) {
+  padding-top: 70px;
+}
+.item:nth-of-type(1){
+ 
+  align-self: end;
+  padding-left: 0px;
+  /*color: teal;*/
+  color: #2F4858;
+  font-size: 76.7px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  user-select: none;
+}
+.repository{
+  max-width: 500px;
+  padding-top: 960px;
+  padding-left: 108px;
+
+}
+.reposit {
+    font-family : 'Bebas Neue', sans-serif;
+    font-size: 98.5px;
+    user-select: none;  
+    justify-content: left;
+}
+.trim {
+  margin-left: 110px;
+  display: grid;
+  grid-template-columns: 267px 252px 249px 277px 403px;
+  grid-template-rows: 60px 200px 400px 100px 100px;
+  letter-spacing: -1px;
+}
+.trimmer:nth-of-type(1),
+.trimmer:nth-of-type(2),
+.trimmer:nth-of-type(3),
+.trimmer:nth-of-type(4),
+.trimmer:nth-of-type(5){
+    display: inline;
+    font-display: swap;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 25.5px; 
+    line-height: 63.5px;
+    user-select: none;
+}
+.undermenu,
+.undermenu1,
+.undermenu3,
+.undermenu4 {
+  font-family: 'Switzer-Medium';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+  line-height: 21.6px;
+  padding-top: 9px;
+  /*color: teal;*/
+  color: #2F4858;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+.undermenu2 {
+  font-size: 20.3px;
+  line-height: 28.6px;
+  padding-top: 9px;
+}
+.semi,
+.semi1,
+.semi2,
+.semi3,
+.semi4{
+  font-family: 'Switzer-Medium';
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+  font-size: 20.35px;
+  line-height: 28.6px;
+  cursor: pointer;
+}
+.semii {
+  font-size: 20.3px;
+  line-height: 28.6px;
+}
+.yetihead {
+  width: 200px;
+  font-family: 'Switzer-Semibold';
+  font-weight: 600;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 30.85px;
+  /*color: teal;*/
+  color: #2F4858;
+  padding-bottom: 13px;
+  line-height: 40.5px;
+}
+.adaptation {
+width: 500px;
+}
+.brighton {
+width: 368px;
+padding-top: 20px;
+max-height: 300px;
+font-family: 'Switzer-Medium';
+font-style: normal;
+font-weight: 500;
+text-rendering: optimizeLegibility;
+font-size: 18px;
+line-height: 24.6px;
+}
+.imginfo,
+.imginfo1,
+.imginfo2,
+.imginfo3,
+.imginfo4,
+.imginfo5,
+.imginfo6,
+.imginfo7,
+.imginfo8,
+.imginfo9,
+.imginfo10,
+.imginfo11,
+.imginfo12,
+.imginfo13,
+.imginfo14 {
+  padding-top: 10px;
+  font-family: 'Switzer-Medium';
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  /*color: teal;*/
+  color: #2F4858;
+  line-height: 23.5px;
+}
+.bannerflex {
+  display: grid;
+  grid-template-columns: 450px;
+  justify-content: left;
+  padding-left: 907px;
+}
+.glossy1y {
+  font-size: 18px;
+  line-height: 24.6px;
+}
+.bannerflexi {
+  display: inline-grid;
+  justify-content: right;
+  padding-left: 918px;
+}
+.influencer {
+  width: 520px;
+  padding-right: 0px;
+}
+.bannerflex1 {
+  display: flex;
+  justify-content: left;
+  margin-left: 26px;
+}
+.exhibitionbody{
+  font-size: 18px;
+  line-height: 24.6px;
+  width: 520px;
+}
+.bearer1 {
+  text-align: left;
+  padding-left: 86px;
+}
+.bearer {
+  padding-right: 270px;
+  font-family: 'Switzer-Medium';
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  text-align: left;
+  font-size: 25.85px;
+ /*color: teal;*/
+ color: #2F4858;
+  line-height: 40.5px;
+}
+.portraitbody {
+  font-size: 18px;
+  line-height: 24.6px;
+  width: 448px;
+}
+.productbody {
+  font-size: 18px;
+  line-height: 24.6px;
+}
+.glossy1 {
+  font-size: 18px;
+  line-height: 24.6px;
+}
+.imageography {
+  margin-top: 450px;
+  margin-left: 110px;
+  display: grid;
+  position: relative;
+  grid-template-columns: 518px;
+  grid-template-rows: 236px;
+}
+.imageography1 {
+  margin-top: 250px;
+  margin-left: 127px;
+  display: grid;
+  grid-template-columns: 634px;
+  grid-template-rows: 236px;
+}
+.About_Me {
+  color:rgba(47, 72, 88, 1);
+}
+.imagegrid, 
+.imagegrid1, 
+.imagegrid2,
+.imagegrid3 {
+  margin-top: 50px;
+  margin-left: 110px;
+  display: grid;
+  grid-template-columns: repeat(5, 260px);
+  grid-template-rows: repeat(2, 260px);
+  gap: 12px;
+}
+.footer {
+  max-width: 1200px;
+  padding-left: 110px;
+  padding-top: 87px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 220px;
+  position: absolute;
+  gap: 40px;
+}
+.About_Me {
+  padding-left: 10px;
+}
+.foot:nth-of-type(1) {
+  padding-top: 30.7px;
+  padding-left: 0px;
+}
+.foot:nth-of-type(2) {
+  padding-top: 40.7px;
+  padding-left: 217px;
+}
+.Behance-Logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.iconss {
+  width: 200px;
+  display: inline-flex;
+  justify-content: left;
+  padding-right: 200px;
+}
+.BIBLIOTHECA {
+  margin-top: 270px;
+  margin-left: 110px;
+  display: grid;
+  grid-template-columns: 162px 230px 208px 229px 249px;
+  grid-template-rows: 100px 162px 200px;
+  column-gap: 60px;
+  row-gap: 400px;
+}
+  .victor.image1{
+    width: 230px; 
+    height: 325px;
+  }
+  .victor.image2{
+    width: 226px; 
+    height: 339px;
+  }
+  .victor.image3{
+    width: 210px; 
+    height: 255px;
+    padding-left: 30px;
+  }
+  .imginfo2 {
+    padding-left: 34px;
+  }
+  .victor.image4{
+    padding-left: 0px;
+    width: 208px; 
+    height: 330px;
+  }
+  .victor.image5{
+    width: 230px; 
+    height: 350px;
+  }
+  .victor.image6{
+    width: 262px; 
+    height: 320px;
+    padding-left: 40px;
+  }
+  .imginfo5 {
+    padding-left: 38px;
+  }
+  .victor.image7{
+    width: 316px;
+    height: 340px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+  .imginfo6 {
+    padding-left: 0px;
+  }
+  .victor.image8{
+    width: 276px; 
+    height: 386px;
+  }
+  .victor.image9{
+    width: 240px; 
+    height: 317px;
+  }
+  .victor.image10{
+    width: 215px; 
+    height: 267px;
+  }
+  .victor.image11{
+    width: 256px; 
+    height: 347px;
+    padding-left: 20px;
+  }
+  .imginfo10 {
+    padding-left: 18px;
+  }
+  .victor.image12{
+    width: 249px; 
+    height: 376px;
+  }
+  .victor.image13{
+    width: 245px; 
+    height: 328px;
+  }
+  .victor.image14{
+    width: 266px; 
+    height: 367px;
+  }
+  .squarecut, .squarecut1, .squarecut2, .squarecut3 {
+    width:267px;
+    height: 267px;
+  }
+}
+@media only screen and (min-width: 2304px) and (orientation: landscape) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
@@ -3030,6 +3501,3 @@ line-height: 24.6px;
     height: 267px;
   }
 }
- /* @media screen and (max-width: 1279px) and (min-width: 1024px) {
-    
-  } */
