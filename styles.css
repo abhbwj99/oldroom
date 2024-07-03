@@ -2559,7 +2559,7 @@ justify-content: left;
 }
   /* Add more styles as needed */
 }
-@media screen and (max-width: 1640px) {
+@media screen and (max-width: 1440px) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
