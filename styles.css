@@ -1327,7 +1327,7 @@ color: #2F4858;
     margin-top: 100px;
     display: grid;
     grid-template-columns: 590px 390px;
-    column-gap: 250px;
+    column-gap: 768px;
   }
   .About_Me {
     font-family: 'Vercetti-Regular', sans-serif;
@@ -2575,7 +2575,7 @@ justify-content: left;
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 269px;
-      column-gap: 450px;
+      column-gap: 378px;
   }
   .data-lenis-prevent{
 
@@ -2587,7 +2587,7 @@ justify-content: left;
     align-items: start;
    /* grid-template-rows: repeat(2, 1fr); */
     grid-template-columns: 661px 338px;
-    column-gap: 236px;
+    column-gap: 166px;
     grid-auto-columns: minmax(50px, auto); 
 }
 .item:nth-of-type(3){
@@ -2717,7 +2717,7 @@ color: #2F4858;
 .trim {
   margin-left: 110px;
   display: grid;
-  grid-template-columns: 267px 252px 249px 277px 403px;
+  grid-template-columns: 223px 223px 205px 245px 403px;
   grid-template-rows: 60px 200px 400px 100px 100px;
   letter-spacing: -1px;
 }
@@ -2727,11 +2727,13 @@ color: #2F4858;
 .trimmer:nth-of-type(4),
 .trimmer:nth-of-type(5){
     display: inline;
+    font-weight: 600;
+    font: 'Switzer-Semibold';
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
-    font-size: 25.5px; 
-    line-height: 63.5px;
+    font-size: 15.5px; 
+    line-height: 58.5px;
     user-select: none;
 }
 .undermenu,
@@ -2743,7 +2745,7 @@ color: #2F4858;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
-  line-height: 21.6px;
+  line-height: 15.6px;
   padding-top: 9px;
   /*color: teal;*/
   color: #2F4858;
@@ -2751,8 +2753,8 @@ color: #2F4858;
   transition: color 0.3s ease;
 }
 .undermenu2 {
-  font-size: 20.3px;
-  line-height: 28.6px;
+  font-size: 17.55px;
+  line-height: 23.55px;
   padding-top: 9px;
 }
 .semi,
@@ -2765,13 +2767,13 @@ color: #2F4858;
     font-display: swap;
     font-style: normal;
     text-rendering: optimizeLegibility;
-  font-size: 20.35px;
-  line-height: 28.6px;
+  font-size: 17.55px;
+  line-height: 23.55px;
   cursor: pointer;
 }
 .semii {
-  font-size: 20.3px;
-  line-height: 28.6px;
+  font-size: 17.55px;
+  line-height: 23.55px;
 }
 .yetihead {
   width: 200px;
@@ -2946,7 +2948,7 @@ line-height: 24.6px;
   margin-top: 270px;
   margin-left: 110px;
   display: grid;
-  grid-template-columns: 162px 230px 208px 229px 249px;
+  grid-template-columns: 162px 230px 168px 229px 249px;
   grid-template-rows: 100px 162px 200px;
   column-gap: 60px;
   row-gap: 400px;
@@ -3046,7 +3048,7 @@ line-height: 24.6px;
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 234px;
-      column-gap: 599px;
+      column-gap: 999px;
   }
   .data-lenis-prevent{
 
