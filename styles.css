@@ -3053,7 +3053,7 @@ line-height: 24.6px;
     .pre_container {
   
       width: 1000px;
-      margin-left: 110px; 
+      margin-left: 0px; 
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 234px;
