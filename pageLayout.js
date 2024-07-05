@@ -28,7 +28,7 @@ var mY_RectANGLE = [];
 var canvas;
 function setup()
 {
-    canvas = createCanvas(windowWidth,1783);
+    canvas = createCanvas(window.innerWidth,1783);
     canvas.position(0,0);
     canvas.style('z-index','-1')
     for(var i = 0; i < 10; i++)
@@ -67,8 +67,8 @@ function Ractangle(x, y)
     this.y = y;
     
     this.r = 252;
-    this.g = 252;
-    this.b = 76;
+    this.g = 242;
+    this.b = 63;
     
     this.strk_Weight = 0;
     this.fIll_Col = random(255, 159);

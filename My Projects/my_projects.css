@@ -603,9 +603,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -814,8 +814,16 @@ a {
   padding-bottom: 50px;
   font-size: 17.2px;
   line-height: 23.5px;
-}
+   }
+  }
+  @media only screen and (min-width: 1640px) and (orientation: landscape) {
+    /* Your CSS rules for the MacBook Air go here */
+    *
+      {
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+      }
+
+      
     }
-    /* @media screen and (max-width: 1279px) and (min-width: 1024px) {
-       
-     } */
