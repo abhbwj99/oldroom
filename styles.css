@@ -3019,16 +3019,16 @@ line-height: 24.6px;
     .pre_container {
   
       width: 1000px;
-      margin-left: 187px; 
+      margin-left: 147px; 
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 234px;
-      column-gap: 760px;
+      column-gap: 610px;
   }
   .data-lenis-prevent{
 
     max-width: 1020px;
-    margin-left: 187px;
+    margin-left: 147px;
     margin-top: 150px;
     display: grid;
     position: absolute;
@@ -3154,7 +3154,7 @@ color: #2F4858;
 .repository{
   max-width: 500px;
   padding-top: 960px;
-  padding-left: 187px;
+  padding-left: 147px;
 
 }
 .reposit {
@@ -3164,7 +3164,7 @@ color: #2F4858;
     justify-content: left;
 }
 .trim {
-  margin-left: 187px;
+  margin-left: 147px;
   display: grid;
   grid-template-columns: 267px 252px 249px 277px 403px;
   grid-template-rows: 60px 200px 400px 100px 100px;
@@ -3333,7 +3333,7 @@ line-height: 24.6px;
 }
 .imageography {
   margin-top: 450px;
-  margin-left: 187px;
+  margin-left: 147px;
   display: grid;
   position: relative;
   grid-template-columns: 518px;
