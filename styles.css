@@ -3517,7 +3517,7 @@ line-height: 24.6px;
 
 
 }
-@media only screen and (min-width: 2304px) and (orientation: landscape) {
+@media only screen and (max-width: 2304px) and (orientation: landscape) {
    
   *
   {
