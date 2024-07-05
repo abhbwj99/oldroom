@@ -3007,7 +3007,7 @@ line-height: 24.6px;
     height: 267px;
   }
 }
-@media screen and (min-width: 1938px) {
+@media screen and (max-width: 1938px) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {

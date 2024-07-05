@@ -633,8 +633,8 @@ a {
    }
      }
      /* Media Query for MacBook Air (13.3-inch screen width) */
-   @media screen and (max-width: 1440px) {
-     /* Your CSS rules for the MacBook Air go here */
+   /*@media screen and (max-width: 1440px) {
+     /* Your CSS rules for the MacBook Air go here
      *
        {
            box-sizing: border-box;
@@ -828,7 +828,7 @@ a {
   font-size: 17.2px;
   line-height: 23.5px;
    }
-  }
+  }*/
   @media only screen and (max-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
