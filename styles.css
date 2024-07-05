@@ -2580,11 +2580,11 @@ justify-content: left;
     .pre_container{
   
       width: 1000px;
-      margin-left: 110px; 
+      margin-left: 50px; 
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 269px;
-      column-gap: 378px;
+      column-gap: 178px;
   }
   .data-lenis-prevent{
 
