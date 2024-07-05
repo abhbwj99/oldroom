@@ -252,7 +252,7 @@ video {
     margin-top: 136px;
     display: grid;
     grid-template-columns: 590px 390px;
-    column-gap: 450px;
+    column-gap: 850px;
 }
 /*.subitems{
   display: grid;
@@ -3007,7 +3007,7 @@ line-height: 24.6px;
     height: 267px;
   }
 }
-@media screen and (max-width: 1938px) and (orientation: landscape) {
+@media screen and (min-width: 1938px) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
