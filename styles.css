@@ -2535,7 +2535,7 @@ line-height: 24.6px;
     height: 267px;
   }
 }
-@media only screen and (max-width: 1640px) and (orientation: landscape) {
+@media only screen and (min-width: 1640px) and (orientation: landscape) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
@@ -3007,7 +3007,7 @@ line-height: 24.6px;
     height: 267px;
   }
 }
-@media only screen and (min-width: 1938px) and (orientation: landscape) {
+@media screen and (max-width: 1938px) and (orientation: landscape) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
