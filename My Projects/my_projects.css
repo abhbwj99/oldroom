@@ -837,6 +837,14 @@ a {
           padding: 0;
           margin: 0;
       }
+      body {
+        line-height: 1.5px;
+        background-color: #f2f2e2;
+        cursor: none;
+        user-select: none;
+        overflow-y: hidden; 
+        overflow-x: hidden;
+    }
       .container {
         max-width: 1820px;
         margin-left: 110px;
