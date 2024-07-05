@@ -3041,7 +3041,7 @@ line-height: 24.6px;
     height: 267px;
   }
 }
-@media only screen and (max-width: 1640px) and (orientation: landscape) {
+@media only screen and (min-width: 1640px) and (orientation: landscape) {
   /* Your CSS rules for the MacBook Air go here */
   *
     {
@@ -3053,11 +3053,11 @@ line-height: 24.6px;
     .pre_container {
   
       width: 1000px;
-      margin-left: 0px; 
+      margin-left: 110px; 
       margin-top: 136px;
       display: grid;
       grid-template-columns: 496px 234px;
-      column-gap: 235px;
+      column-gap: 335px;
   }
   .data-lenis-prevent{
 
@@ -3529,11 +3529,11 @@ line-height: 24.6px;
   .pre_container{
 
     width: 1000px;
-    margin-left: 187px; 
+    margin-left: 117px; 
     margin-top: 136px;
     display: grid;
     grid-template-columns: 496px 263px;
-    column-gap: 752px;
+    column-gap: 252px;
 }
 .data-lenis-prevent{
 
