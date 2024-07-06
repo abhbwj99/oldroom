@@ -829,7 +829,7 @@ a {
   line-height: 23.5px;
    }
   }
-  @media only screen and (max-width: 1640px) and (orientation: landscape) {
+  @media only screen and (max-width: 1710px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
       {
