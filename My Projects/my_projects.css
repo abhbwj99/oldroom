@@ -837,7 +837,7 @@ a {
           padding: 0;
           margin: 0;
       }
-      
+
       .container {
         max-width: 1820px;
         margin-left: 110px;
@@ -951,7 +951,7 @@ a {
     font-size: 27px;
   }
 }
-@media screen and (max-width: 1938px)  {
+@media screen and (min-width: 1938px)  {
   /* Your CSS rules for the MacBook Air go here */
   * 
   { 
