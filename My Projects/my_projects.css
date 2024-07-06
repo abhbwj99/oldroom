@@ -829,7 +829,7 @@ a {
   line-height: 23.5px;
    }
   }
-  @media screen and (max-width: 1640px) {
+  @media only screen and (max-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
       {
@@ -838,13 +838,8 @@ a {
           margin: 0;
       }
       body {
-        line-height: 1.5px;
-        background-color: #f2f2e2;
-        cursor: none;
-        user-select: none;
-        overflow-y: hidden; 
         overflow-x: hidden;
-    }
+     }
       .container {
         max-width: 1820px;
         margin-left: 110px;
