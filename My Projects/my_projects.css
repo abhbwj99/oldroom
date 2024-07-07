@@ -628,9 +628,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/fonts/Switzer-Medium.woff') format('woff'),
-         url('/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
+         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -643,204 +643,8 @@ a {
        padding: 0;
        margin: 0;
    }
-     }
+}
      /* Media Query for MacBook Air (13.3-inch screen width) */
-   @media screen and (max-width: 1440px) {
-     /* Your CSS rules for the MacBook Air go here */
-     *
-       {
-           box-sizing: border-box;
-           padding: 0;
-           margin: 0;
-       }
-       body {
-        overflow-x: hidden; 
-    }
-       .container {
-        margin-top: 72px;
-        margin-left: 72px;
-        display: grid;
-        align-items: start;
-        grid-template-columns: 500px 700px;
-        grid-template-rows: 343px 343px;
-        grid-auto-columns: minmax(50px, auto);  
-        grid-auto-rows: minmax(50px, auto); 
-        column-gap: 50px;
-      }
-      .item:nth-of-type(1) {
-        font-family : 'Bebas Neue', sans-serif;
-        font-size: 75px;
-        line-height: 70px;
-        user-select: none;  
-    }
-    .body {
-      font-family: 'Switzer-Medium';
-      font-weight: 400;
-      font-style: normal;
-      text-rendering: optimizeLegibility;
-        font-size: 17.2px;
-        padding-top: 50px;
-        line-height: 23.5px;
-    }
-    .iconwrapper {
-      margin-left: 0px;
-      margin-top: 10px;
-    }
-    .nowhere {
-      width: 700px;
-      height: 467px;
-    }
-    .item:nth-of-type(3) {
-      padding-left: 40px;
-      padding-top: 40px;
-    }
-    .itemm {
-      font-size: 27.85px;
-      line-height: 23.5px;
-      padding-top: 330px;
-    }
-    .cluster {
-      font-size: 17.2px;
-      padding-top: 50px;
-      line-height: 23.5px;
-    }
-    .stats {
-     font-size: 17.2px;
-     padding-top: 50px;
-     padding-left: 110px;
-     line-height: 23.5px;
-   }
-   .boxhead {
-   font-size: 27.85px;
-   line-height: 29.5px;
-   padding-top: 327px;
-   padding-left: 110px;
- }
- .nationaldress {
-  column-gap: 0px;
-  row-gap: 230px;
-  grid-template-rows: 509px 600px;
-  margin-left: 72px;
-}
-.batik {
-  width: 550px;
-  height: 426px;
-}
-.peki {
-  width: 550px;
-  height: 426px;
-}
-.kebaya {
-  width: 600px;
-  height: 426px;
-}
-.textbottom {
-  font-size: 17.2px;
-  padding-top: 20px;
-  line-height: 23.5px;
-}
-.headbottom {
-  font-size: 23.85px;
-  padding-top: 20px;
-  line-height: 23.5px;
-}
-.pictext {
-  max-width: 300px;
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: 110px 442px;
-  grid-template-rows: 200px 200px;
-  column-gap: 0px;
-}
-.pictext2 {
-  max-width: 400px;
-  margin-top: 10px;
-  display: grid;
-  grid-template-columns: 110px 442px;
-  grid-template-rows: 200px 200px;
-  column-gap: 40px;
-}
-.headbottom2 {
- font-size: 23.85px;
- padding-top: 20px;
- line-height: 23.5px;
-}
-.textbottom2 {
- font-size: 17.2px;
- padding-top: 20px;
- line-height: 23.5px;
-}
-.pictext3 {
-  max-width: 500px;
-  margin-top: 0px;
-  display: grid;
-  grid-template-columns: 110px 387px;
-  grid-template-rows: 200px 200px;
-  column-gap: 47px;
-}
-.headbottom3 {
-  font-family: 'Switzer-Medium';
- font-weight: 500;
- font-style: normal;
- text-rendering: optimizeLegibility;
- font-size: 23.85px;
- line-height: 34.5px;
- padding-top: 30px;
-}
-.textbottom3 {
-  font-family: 'Switzer-Medium';
- font-weight: 500;
- font-style: normal;
- text-rendering: optimizeLegibility;
- font-size: 17.2px;
- padding-top: 30px;
- line-height: 23.5px;
-}
-.peki1 {
-  width: 600px;
-  height: 423px;
-}
-.container3 {
-  max-width: 1820px;
-  margin-left: 72px;
-  margin-top: 326px;
-  display: grid;
-  align-items: start;
-  grid-template-columns: 800px;
-  grid-template-rows: 490px;
-  row-gap: 40px;
-}
-.headideate {
- font-size: 27.85px;
- line-height: 34.5px;
- align-items: start;
-}
-.item3:nth-of-type(2) {
-  padding-left: 142px;
-}
-.manual {
-  margin-top: 170px;
-  margin-left: 71px;
-  display: grid;
-  position: absolute;
-  grid-template-columns: 515px 687px;
-  grid-template-rows: 698px;
-  column-gap: 30px;
-}
-.press {
-  text-align: left;
-  font-family : 'Bebas Neue', sans-serif;
-  font-size: 55px;
-  line-height: 59px;
-  user-select: none;  
-}
-.origin {
-  padding-top: 37px;
-  padding-bottom: 50px;
-  font-size: 17.2px;
-  line-height: 23.5px;
-   }
-  }
   @media only screen and (max-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
@@ -852,7 +656,7 @@ a {
 
       .container {
         max-width: 1500px;
-        margin-left: 110px;
+        margin-left: 72px;
         margin-top: 160px;
         display: grid;
         align-items: start;
