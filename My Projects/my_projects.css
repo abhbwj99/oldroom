@@ -628,9 +628,9 @@ a {
   }
   @font-face {
     font-family: 'Switzer-Medium';
-    src: url('/oldroom/fonts/Switzer-Medium.woff2') format('woff2'),
-         url('/oldroom/fonts/Switzer-Medium.woff') format('woff'),
-         url('/oldroom/fonts/Switzer-Medium.ttf') format('truetype');
+    src: url('/fonts/Switzer-Medium.woff2') format('woff2'),
+         url('/fonts/Switzer-Medium.woff') format('woff'),
+         url('/fonts/Switzer-Medium.ttf') format('truetype');
          font-weight: 500;
          font-display: swap;
          font-style: normal;
@@ -815,7 +815,7 @@ a {
     line-height: 24.6px;
   }
 }
-/*@media only screen and (min-width: 1880px) {
+@media only screen and (min-width: 1880px) {
   *
   {
       box-sizing: border-box;
@@ -830,78 +830,6 @@ a {
     overflow-y: hidden; 
     overflow-x: hidden;
 }
-html.lenis {
-    height: auto;
-}
-.lenis.lenis-smooth {
-    scroll-behavior: auto;
-}
-.lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-}
-.lenis.lenis-stopper {
-    overflow: hidden;
-}
-.lenis.lenis-scrolling iframe {
-    pointer-events: none;
-  }
-html.lenis {
-    height: auto;
-  }
-  .lenis.lenis-smooth {
-    scroll-behavior: auto;
-  }
-  .cursor-dot {
-    width: 10px;
-    height: 10px;
-    background-color:hsl(180, 100%, 25%)
-  }
-  .cursor-outline {
-    width: 35px;
-    height: 35px;
-    border: 2.3px solid hsl(180, 100%, 25%)
-  }
-  .cursor-outline,
-  .cursor-dot {
-     position: fixed;
-     top: 0;
-     left: 0;
-     transform: translate(-50%, -50%);
-     z-index: 1;
-     border-radius: 50%;
-     pointer-events: none;
-  }
-  .crane {
-    margin-top: 0px;
-    display: flex;
-  }
-  .wrapitup {
-    display: inline-block;
-    position: absolute;
-    padding-top: 9.3px;
-    padding-left: 8px;
-  }
-  .circle {
-    width: 45px;
-    height: 45px;
-    border-radius: 100%;
-    background-color: #2F4858;
-  /*  transition: filter 0.3s ease-in-out; 
-    transition: color 0.3s ease-in-out;
-  }
-  .triangle {
-    width: 0;
-    height: 0;
-    border-top: 12.7px solid transparent; /* Adjust the size as needed 
-    border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
-    border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
-    position: absolute;
-    transition: color 0.3s ease-in-out;
-  }
-  .circle:hover {
-   filter: drop-shadow(0 0 10px rgba(242, 242, 226, 0.7));
-   background-color: teal;
-  }
   .container {
     max-width: 1820px;
     margin-left: 160px;
@@ -940,15 +868,15 @@ html.lenis {
     height: 45px;
     border-radius: 100%;
     background-color: #2F4858;
-  /*  transition: filter 0.3s ease-in-out; 
+  /*  transition: filter 0.3s ease-in-out; */
     transition: color 0.3s ease-in-out;
   }
   .triangle2 {
     width: 0;
     height: 0;
-    border-top: 12.7px solid transparent; /* Adjust the size as needed 
-    border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
-    border-left: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
+    border-top: 12.7px solid transparent; /* Adjust the size as needed */
+    border-bottom: 12.7px solid transparent; /* Adjust the size as needed */ 
+    border-left: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
     position: absolute;
     transition: color 0.3s ease-in-out;
   }
@@ -960,7 +888,7 @@ html.lenis {
     padding-top: 510px;
     padding-left: 45px;
   }
-/* Style the image inside the link 
+/* Style the image inside the link */
 .item:nth-of-type(1) {
     font-family : 'Bebas Neue', sans-serif;
     font-size: 85px;
@@ -1308,15 +1236,15 @@ html.lenis {
   height: 45px;
   border-radius: 100%;
   background-color: #2F4858;
-/*  transition: filter 0.3s ease-in-out; 
+/*  transition: filter 0.3s ease-in-out; */
   transition: color 0.3s ease-in-out;
 }
 .triangle1 {
   width: 0;
   height: 0;
-  border-top: 12.7px solid transparent; /* Adjust the size as needed
-  border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
-  border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
+  border-top: 12.7px solid transparent; 
+  border-right: 20.7px solid #f2f2e2; 
+  border-bottom: 12.7px solid transparent; 
   position: absolute;
   transition: color 0.3s ease-in-out;
 }
@@ -1363,4 +1291,4 @@ html.lenis {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
-} */
+}
