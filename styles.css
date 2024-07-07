@@ -2451,7 +2451,7 @@ line-height: 24.6px;
   margin-top: 270px;
   margin-left: 110px;
   display: grid;
-  grid-template-columns: 162px 230px 168px 229px 249px;
+/*  grid-template-columns: 162px 230px 168px 229px 249px; */
   grid-template-rows: 100px 162px 200px;
   column-gap: 60px;
   row-gap: 400px;
@@ -2814,7 +2814,7 @@ line-height: 24.6px;
 .bannerflexi {
   display: inline-grid;
   justify-content: right;
-  padding-left: 918px;
+  padding-left: 902px;
 }
 .influencer {
   width: 520px;
@@ -2823,7 +2823,7 @@ line-height: 24.6px;
 .bannerflex1 {
   display: flex;
   justify-content: left;
-  margin-left: 26px;
+  margin-left: 39px;
 }
 .exhibitionbody{
   font-size: 18px;
@@ -2849,7 +2849,7 @@ line-height: 24.6px;
 .portraitbody {
   font-size: 18px;
   line-height: 24.6px;
-  width: 448px;
+  width: 428px;
 }
 .productbody {
   font-size: 18px;
