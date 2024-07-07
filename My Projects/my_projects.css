@@ -815,7 +815,7 @@ a {
     line-height: 24.6px;
   }
 }
-@media screen and (min-width: 1880px) {
+@media only screen and (min-width: 1880px) {
   *
   {
       box-sizing: border-box;
