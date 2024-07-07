@@ -636,7 +636,7 @@ a {
          font-style: normal;
   }
 
- @media only screen and (max-width: 1633px) and (orientation: landscape) {
+ @media only screen and (max-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
       {
@@ -815,7 +815,7 @@ a {
     line-height: 24.6px;
   }
 }
-@media only screen and (min-width: 1880px) {
+/*@media only screen and (min-width: 1880px) {
   *
   {
       box-sizing: border-box;
@@ -886,15 +886,15 @@ html.lenis {
     height: 45px;
     border-radius: 100%;
     background-color: #2F4858;
-  /*  transition: filter 0.3s ease-in-out; */
+  /*  transition: filter 0.3s ease-in-out; 
     transition: color 0.3s ease-in-out;
   }
   .triangle {
     width: 0;
     height: 0;
-    border-top: 12.7px solid transparent; /* Adjust the size as needed */
-    border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
-    border-bottom: 12.7px solid transparent; /* Adjust the size as needed */
+    border-top: 12.7px solid transparent; /* Adjust the size as needed 
+    border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
+    border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
     position: absolute;
     transition: color 0.3s ease-in-out;
   }
@@ -940,15 +940,15 @@ html.lenis {
     height: 45px;
     border-radius: 100%;
     background-color: #2F4858;
-  /*  transition: filter 0.3s ease-in-out; */
+  /*  transition: filter 0.3s ease-in-out; 
     transition: color 0.3s ease-in-out;
   }
   .triangle2 {
     width: 0;
     height: 0;
-    border-top: 12.7px solid transparent; /* Adjust the size as needed */
-    border-bottom: 12.7px solid transparent; /* Adjust the size as needed */
-    border-left: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
+    border-top: 12.7px solid transparent; /* Adjust the size as needed 
+    border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
+    border-left: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
     position: absolute;
     transition: color 0.3s ease-in-out;
   }
@@ -960,7 +960,7 @@ html.lenis {
     padding-top: 510px;
     padding-left: 45px;
   }
-/* Style the image inside the link */
+/* Style the image inside the link 
 .item:nth-of-type(1) {
     font-family : 'Bebas Neue', sans-serif;
     font-size: 85px;
@@ -1241,11 +1241,6 @@ html.lenis {
 .item5:nth-of-type(1) {
   padding-left: 737px;
 }
-/*IMAGE SLIDER CODE STARTS FROM HERE.*/
-/*----------------------------------.*/
-
-/*----------------------------------.*/
-/*IMAGE SLIDER CODE ENDS HERE.*/
 .manual {
   margin-top: 170px;
   margin-left: 200px;
@@ -1313,15 +1308,15 @@ html.lenis {
   height: 45px;
   border-radius: 100%;
   background-color: #2F4858;
-/*  transition: filter 0.3s ease-in-out; */
+/*  transition: filter 0.3s ease-in-out; 
   transition: color 0.3s ease-in-out;
 }
 .triangle1 {
   width: 0;
   height: 0;
-  border-top: 12.7px solid transparent; /* Adjust the size as needed */
-  border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed */
-  border-bottom: 12.7px solid transparent; /* Adjust the size as needed */
+  border-top: 12.7px solid transparent; /* Adjust the size as needed
+  border-right: 20.7px solid #f2f2e2; /* Adjust the size and color as needed 
+  border-bottom: 12.7px solid transparent; /* Adjust the size as needed 
   position: absolute;
   transition: color 0.3s ease-in-out;
 }
@@ -1368,4 +1363,4 @@ html.lenis {
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
-}
+} */
