@@ -269,6 +269,14 @@ html.lenis {
   width: 690px; 
   height: 509px;
 }
+.peki {
+  width: 680px;
+  height: 609px;
+}
+.peki1 {
+  width: 690px;
+  height: 557px;
+}
 .sonar:nth-of-type(4) {
   padding-top: 53px;
 }
@@ -405,6 +413,10 @@ html.lenis {
   grid-template-columns: 800px;
   grid-template-rows: 490px;
   row-gap: 40px;
+}
+.concept, .concept1, .concept2 {
+ width: 1050px; 
+ height: 690px;
 }
 .item3:nth-of-type(2) {
   padding-left: 500px;
@@ -829,7 +841,7 @@ a {
   line-height: 23.5px;
    }
   }
-  @media only screen and (max-width: 1710px) and (orientation: landscape) {
+  @media only screen and (max-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
       {
@@ -909,11 +921,23 @@ a {
     grid-template-columns: 600px 600px;
     grid-template-rows: 600px 600px;
     column-gap: 105px;
-    row-gap: 290px;
+    row-gap: 239px;
   }
   .batik {
     width: 598px; 
     height: 495px;
+  }
+  .kebaya {
+    width: 601px; 
+    height: 426px;
+  }
+  .peki {
+    width: 601px;
+    height: 530px;
+  }
+  .peki1 {
+    width: 600px;
+    height: 478px;
   }
   .pictext {
     max-width: 500px;
@@ -935,20 +959,65 @@ a {
     max-width: 500px;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 110px 490px;
+    grid-template-columns: 110px 402px;
     grid-template-rows: 200px 200px;
     column-gap: 83px;
   }
-  .kebaya {
-    width: 601px; 
-    height: 426px;
-  }
-  .textbottom {
+  .textbottom, .textbottom2, .textbottom3 {
     font-size: 18px;
     line-height: 24.6px;
   }
   .headbottom, .headbottom2, .headbottom3 {
     font-size: 27px;
+  }
+  .container3 {
+    max-width: 1200px;
+    margin-left: 110px;
+    margin-top: 560px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: 800px;
+    grid-template-rows: 490px;
+    row-gap: 40px;
+  }
+  .headideate {
+    font-size: 30.5px;
+  }
+  .concept, .concept1, .concept2 {
+    width: 1050px; 
+    height: 690px;
+   }
+   .item3:nth-of-type(2) {
+    padding-left: 250px;
+  }
+  .manual {
+    margin-top: 170px;
+    margin-left: 110px;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 473px 687px;
+    grid-template-rows: 741px;
+    column-gap: 76px;
+  }
+  .press {
+    text-align: left;
+    font-family : 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    line-height: 59px;
+    user-select: none;  
+    color: #2F4858;
+  }
+  .origin {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: left;
+    font-family: 'Switzer-Medium';
+    font-weight: 500;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-size: 18px;
+    color: #2F4858;
+    line-height: 24.6px;
   }
 }
 @media screen and (min-width: 1938px)  {
