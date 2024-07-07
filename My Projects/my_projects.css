@@ -635,17 +635,8 @@ a {
          font-display: swap;
          font-style: normal;
   }
-  @media screen and (max-width: 1366px) {
 
-    *
-   {
-       box-sizing: border-box;
-       padding: 0;
-       margin: 0;
-   }
-}
-     /* Media Query for MacBook Air (13.3-inch screen width) */
-  @media only screen and (max-width: 1640px) and (orientation: landscape) {
+ @media screen and (min-width: 1640px) and (orientation: landscape) {
     /* Your CSS rules for the MacBook Air go here */
     *
       {
