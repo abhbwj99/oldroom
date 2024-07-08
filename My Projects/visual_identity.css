@@ -678,28 +678,32 @@ text-rendering: optimizeLegibility;
   font-size: 17.2px;
   line-height: 23.5px;
 }
-/*.letterhead {
+.letterhead {
   padding-left: 0px;
 }
- .almost:nth-of-type(1) {
+/* .almost:nth-of-type(1) {
   width: 1440px;
   height: 920px;
 }
   .almosti {
   width: 1440px;
   height: 920px;
-}
+} */
 .letterhead1 {
+  display: inline-grid;
+  position: relative;
   padding-left: 0px;
   padding-top: 850px;
 }
 .letterhead2,
 .letterhead3,
 .letterhead4 {
+  display: inline-grid;
+  position: relative;
   padding-left: 0px;
   padding-top:  0px;
 }
-.almost:nth-of-type(2) {
+/*.almost:nth-of-type(2) {
   width: 1440px;
   height: 920px;
 }
@@ -710,10 +714,12 @@ text-rendering: optimizeLegibility;
 .almost:nth-of-type(4) {
   width: 1440px;
   height: 920px;
-}
-.letterhead5 {
-  padding-top: 0px;
 }*/
+.letterhead5 {
+  display: inline-grid;
+  position: relative;
+  padding-top: 0px;
+}
 .press {
   text-align: left;
   font-family : 'Bebas Neue', sans-serif;
@@ -1095,35 +1101,44 @@ text-rendering: optimizeLegibility;
   width: 851px;
   height: 531px;
 }
-.letterhead, .letterhead1, .letterhead2, .letterhead3,
-.letterhead4, .letterhead5 {
+.letterhead {
     display: inline-grid;
     position: relative;
 }
-}
 .letterhead1 {
+  display: inline-grid;
+  position: relative;
     padding-left: 0px;
     padding-top: 1138px;
 }
 .letterhead2 {
+  display: inline-grid;
+  position: relative;
     padding-left: 0px;
     padding-top: 0px;
 }
 .letterhead3 {
+  display: inline-grid;
+  position: relative;
     padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead4 {
+  display: inline-grid;
+  position: relative;
     padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead5 {
+  display: inline-grid;
+  position: relative;
     padding-top: 0px;
   }
 .backfront {
     padding-left: 0px;
     padding-top: 150px;
  }
+}
 @media only screen and (min-width: 1880px) {
   *
   {
