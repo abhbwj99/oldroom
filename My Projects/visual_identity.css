@@ -306,7 +306,7 @@ html.lenis {
     padding-left: 150px;
 }
 .letterhead {
-    display: flex;
+    display: inline-grid;
     position: relative;
 }
 .constructorimg {
@@ -1095,6 +1095,12 @@ text-rendering: optimizeLegibility;
   width: 851px;
   height: 531px;
 }
+.letterhead, .letterhead1, .letterhead2, .letterhead3,
+.letterhead4, .letterhead5 {
+    display: inline-grid;
+    position: relative;
+}
+}
 .letterhead1 {
     padding-left: 0px;
     padding-top: 1138px;
@@ -1118,7 +1124,6 @@ text-rendering: optimizeLegibility;
     padding-left: 0px;
     padding-top: 150px;
  }
-}
 @media only screen and (min-width: 1880px) {
   *
   {
