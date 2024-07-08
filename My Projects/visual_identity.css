@@ -167,7 +167,7 @@ html.lenis {
     height: 1000px;
   }
 .imagebig {
-    display: flex;
+    display: inline-grid;
     position: relative;
  }
  .imggg {
@@ -600,8 +600,8 @@ a {
   }
   .imagebig {
     max-width: 1440px;
-    display: flex;
-    justify-content: start;
+    display: inline-grid;
+    justify-content: center;
     position: relative;
  }
  .container2 {
@@ -773,6 +773,7 @@ text-rendering: optimizeLegibility;
   }
 .imagebig {
     display: flex;
+    justify-content: center;
     position: relative;
  }
  .imggg {
