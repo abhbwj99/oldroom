@@ -1108,37 +1108,29 @@ text-rendering: optimizeLegibility;
   width: 851px;
   height: 531px;
 }
-.letterhead {
+.letterhead, .letterhead1, .letterhead2,
+.letterhead3, .letterhead4, .letterhead5 {
     display: inline-grid;
+    justify-content: center;
     position: relative;
 }
 .letterhead1 {
-  display: inline-grid;
-  position: relative;
     padding-left: 0px;
     padding-top: 1138px;
 }
 .letterhead2 {
-  display: inline-grid;
-  position: relative;
     padding-left: 0px;
     padding-top: 0px;
 }
 .letterhead3 {
-  display: inline-grid;
-  position: relative;
     padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead4 {
-  display: inline-grid;
-  position: relative;
     padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead5 {
-  display: inline-grid;
-  position: relative;
     padding-top: 0px;
   }
 .backfront {
