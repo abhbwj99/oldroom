@@ -473,7 +473,7 @@ html.lenis {
 }
 .letterhead, .letterhead1, .letterhead2,
 .letterhead3, .letterhead4, .letterhead5 {
-    display: inline-grid;
+    display: flex;
     position: relative;
     justify-content: center;
 }
@@ -687,12 +687,9 @@ text-rendering: optimizeLegibility;
 .letterhead, .letterhead1, .letterhead2,
 .letterhead3, .letterhead4, .letterhead5 {
   max-width: 1440px;
-  display: inline-grid;
+  display: flex;
   justify-content: center;
   position: relative;
-}
-.letterhead {
-  padding-left: 0px;
 }
 /* .almost:nth-of-type(1) {
   width: 1440px;
@@ -1079,25 +1076,25 @@ text-rendering: optimizeLegibility;
     padding-left: 0px;
 }
 .almosti {
-  width: 1640px;
-  height: 1138px;
+  width: 1684px;
+  height: 1182px;
 }
 .almost {
-  width: 1640px;
-  height: 1000px;
+  width: 1684px;
+  height: 1044px;
 }
 .almost2 {
-  width: 1640px;
-  height: 900px;
+  width: 1684px;
+  height: 1124px;
   object-fit: cover;
 }
 .almost3, .almost4 {
-  width: 1640px;
-  height: 1000px;
+  width: 1684px;
+  height: 1044px;
 }
 .almost5 {
-   width: 1640px;
-   height: 1015px;
+   width: 1684px;
+   height: 1059px;
 }
 .ruler {
   width: 851px;
@@ -1105,29 +1102,13 @@ text-rendering: optimizeLegibility;
 }
 .letterhead, .letterhead1, .letterhead2,
 .letterhead3, .letterhead4, .letterhead5 {
-    max-width: 1640px;
-    display: inline-grid;
+    max-width: 1680px;
+    display: flex;
     justify-content: center;
     position: relative;
     padding-left: 0px;
-}
-.letterhead1 {
-
-    padding-top: 1138px;
-}
-.letterhead2 {
-
     padding-top: 0px;
 }
-.letterhead3 {
-    padding-top: 0px;
-  }
-.letterhead4 {
-    padding-top: 0px;
-  }
-.letterhead5 {
-    padding-top: 0px;
-  }
 .backfront {
     padding-top: 150px;
  }
@@ -1292,7 +1273,7 @@ text-rendering: optimizeLegibility;
     padding-left: 150px;
 }
 .letterhead {
-    display: inline-grid;
+    display: flex;
     justify-content: center;
     position: relative;
 }
