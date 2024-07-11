@@ -1105,32 +1105,30 @@ text-rendering: optimizeLegibility;
 }
 .letterhead, .letterhead1, .letterhead2,
 .letterhead3, .letterhead4, .letterhead5 {
-  max-width: 1640px;
+    max-width: 1640px;
     display: inline-grid;
     justify-content: center;
     position: relative;
+    padding-left: 0px;
 }
 .letterhead1 {
-    padding-left: 0px;
+
     padding-top: 1138px;
 }
 .letterhead2 {
-    padding-left: 0px;
+
     padding-top: 0px;
 }
 .letterhead3 {
-    padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead4 {
-    padding-left: 0px;
     padding-top: 0px;
   }
 .letterhead5 {
     padding-top: 0px;
   }
 .backfront {
-    padding-left: 0px;
     padding-top: 150px;
  }
 }
@@ -1294,8 +1292,9 @@ text-rendering: optimizeLegibility;
     padding-left: 150px;
 }
 .letterhead {
-    display: flex;
-    position: absolute;
+    display: inline-grid;
+    justify-content: center;
+    position: relative;
 }
 .constructorimg {
     padding-top: 120px;
