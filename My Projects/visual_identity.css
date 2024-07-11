@@ -305,10 +305,6 @@ html.lenis {
 .headtext {
     padding-left: 150px;
 }
-.letterhead {
-    display: inline-grid;
-    position: relative;
-}
 .constructorimg {
     padding-top: 120px;
     padding-left: 830px;
@@ -317,7 +313,7 @@ html.lenis {
     padding-left: 80px;
 }
 .construction {
-    margin-top: 210px;
+    margin-top: 300px;
     margin-left: 165px;
     display: grid;
     padding-right: 300px;
@@ -478,11 +474,11 @@ html.lenis {
     justify-content: center;
 }
 .letterhead {
-    padding-left: 89px;
+    padding-left: 0px;
 }
 .letterhead1 {
     padding-left: 89px;
-    padding-top: 1250px;
+    padding-top: 50px;
 }
 .letterhead2 {
     padding-left: 89px;
@@ -503,26 +499,22 @@ html.lenis {
     padding-left: 8px;
     padding-top: 150px;
 }
-.almosti {
-   width: 1703px;
-   height: 1190px;
+/*.almosti {
+   width: 1880px;
+   height: 1367px;
 }
 .almost {
-   width: 1703px;
-   height: 1030px;
+   width: 1880px;
+   height: 1207px;
 }
 .almost2 {
    width: 1703px;
    height: 900px;
 }
 .almost3, .almost4 {
-   width: 1400px;
-   height: 1000px;
-}
-.almost5 {
-  width: 1903px;
-  height: 1200px;
-}
+   width: 1880px;
+   height: 1177px;
+} */
 a {
     cursor: none !important; /* Hide the default cursor for all links */
   }
@@ -1272,11 +1264,6 @@ text-rendering: optimizeLegibility;
 .headtext {
     padding-left: 150px;
 }
-.letterhead {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
 .constructorimg {
     padding-top: 120px;
     padding-left: 830px;
@@ -1440,49 +1427,58 @@ text-rendering: optimizeLegibility;
     padding-left: 0px;
 }
 .letterhead {
-    padding-left: 89px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.letterhead {
+    padding-left: 240px;
 }
 .letterhead1 {
-    padding-left: 89px;
-    padding-top: 1250px;
+    padding-left: 240px;
+    padding-top: 0px;
 }
 .letterhead2 {
-    padding-left: 89px;
-    padding-top: 50px;
+    padding-left: 240px;
+    padding-top: 0px;
 }
 .letterhead3 {
-    padding-left: 223px;
-    padding-top: 60px;
+    padding-left: 240px;
+    padding-top: 0px;
   }
 .letterhead4 {
-    padding-left: 223px;
-    padding-top: 60px;
+    padding-left: 240px;
+    padding-top: 0px;
   }
 .letterhead5 {
-    padding-top: 60px;
+  padding-left: 240px;
+  padding-top: 0px;
   }
 .backfront {
     padding-left: 8px;
     padding-top: 150px;
 }
 .almosti {
-   width: 1703px;
-   height: 1190px;
+    width: 1880px;
+    height: 1367px;
 }
 .almost {
-   width: 1703px;
-   height: 1030px;
+   width: 1880px;
+   height: 1207px;
 }
 .almost2 {
-   width: 1703px;
-   height: 900px;
+   width: 1880px;
+   height: 1077px;
 }
-.almost3, .almost4 {
-   width: 1400px;
-   height: 1000px;
+.almost3 {
+   width: 1880px;
+   height: 1448px;
+}
+.almost4 {
+  width: 1880px;
+  height: 1448px;
 }
 .almost5 {
-  width: 1903px;
-  height: 1200px;
+  width: 1880px;
 }
 }
