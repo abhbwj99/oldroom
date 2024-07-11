@@ -471,6 +471,11 @@ html.lenis {
 .divvid {
     padding-left: 0px;
 }
+.letterhead, .letterhead1, .letterhead2,
+.letterhead3, .letterhead4, .letterhead5 {
+    display: inline-grid;
+    position: relative;
+}
 .letterhead {
     padding-left: 89px;
 }
@@ -1079,35 +1084,25 @@ text-rendering: optimizeLegibility;
     padding-left: 0px;
 }
 .almosti {
-  display: inline-grid;
-  position: relative;
   width: 1640px;
   height: 1138px;
 }
 .almost {
-  display: inline-grid;
-  position: relative;
   width: 1640px;
   height: 1000px;
 }
 .almost2 {
-  display: inline-grid;
-  position: relative;
   width: 1640px;
   height: 900px;
   object-fit: cover;
 }
 .almost3, .almost4 {
-  display: inline-grid;
-  position: relative;
   width: 1640px;
   height: 1000px;
 }
 .almost5 {
-  display: inline-grid;
-  position: relative;
- width: 1640px;
- height: 1015px;
+   width: 1640px;
+   height: 1015px;
 }
 .ruler {
   width: 851px;
