@@ -475,6 +475,7 @@ html.lenis {
 .letterhead3, .letterhead4, .letterhead5 {
     display: inline-grid;
     position: relative;
+    justify-content: center;
 }
 .letterhead {
     padding-left: 89px;
@@ -683,9 +684,14 @@ text-rendering: optimizeLegibility;
   font-size: 17.2px;
   line-height: 23.5px;
 }
-.letterhead {
+.letterhead, .letterhead1, .letterhead2,
+.letterhead3, .letterhead4, .letterhead5 {
+  max-width: 1440px;
   display: inline-grid;
+  justify-content: center;
   position: relative;
+}
+.letterhead {
   padding-left: 0px;
 }
 /* .almost:nth-of-type(1) {
@@ -697,16 +703,12 @@ text-rendering: optimizeLegibility;
   height: 920px;
 } */
 .letterhead1 {
-  display: inline-grid;
-  position: relative;
   padding-left: 0px;
   padding-top: 850px;
 }
 .letterhead2,
 .letterhead3,
 .letterhead4 {
-  display: inline-grid;
-  position: relative;
   padding-left: 0px;
   padding-top:  0px;
 }
@@ -723,8 +725,6 @@ text-rendering: optimizeLegibility;
   height: 920px;
 }*/
 .letterhead5 {
-  display: inline-grid;
-  position: relative;
   padding-top: 0px;
 }
 .press {
@@ -931,11 +931,6 @@ text-rendering: optimizeLegibility;
 .headtext {
     padding-left: 150px;
 }
-.letterhead {
-    padding-left: 0px;
-    display: flex;
-    position: absolute;
-}
 .constructorimg {
     padding-top: 120px;
     padding-left: 830px;
@@ -1110,6 +1105,7 @@ text-rendering: optimizeLegibility;
 }
 .letterhead, .letterhead1, .letterhead2,
 .letterhead3, .letterhead4, .letterhead5 {
+  max-width: 1640px;
     display: inline-grid;
     justify-content: center;
     position: relative;
