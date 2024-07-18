@@ -134,6 +134,10 @@ html.lenis {
     grid-auto-rows: minmax(50px, auto); 
     column-gap: 80px;
   }
+  .publicimg {
+    width: 980px;
+    height: 710px;
+  }
   .item:nth-of-type(1) {
     font-family : 'Bebas Neue', sans-serif;
     font-size: 85px;
@@ -317,6 +321,10 @@ html.lenis {
           margin-top: 100px;
           column-gap: 40px;
         }
+        .publicimg {
+          width: 640px;
+          height: 510px;
+        }
         .item:nth-of-type(1) {
           font-family : 'Bebas Neue', sans-serif;
           font-size: 75px;
@@ -334,4 +342,238 @@ html.lenis {
           margin-top: 80px;
           margin-left: 550px;
         }
+    }
+    @media only screen and (min-width: 1640px) and (orientation: landscape) {
+      
+      .container {
+        max-width: 1640px;
+        margin-left: 110px;
+        margin-top: 160px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: 500px 800px;
+        grid-template-rows: 490px 450px;
+        grid-auto-columns: minmax(50px, auto);  
+        grid-auto-rows: minmax(50px, auto); 
+        column-gap: 80px;
+      }
+      .publicimg {
+        width: 640px;
+        height: 510px;
+      }
+      .item:nth-of-type(1) {
+        font-family : 'Bebas Neue', sans-serif;
+        font-size: 85px;
+        line-height: 80px;
+        user-select: none;  
+        color: #2F4858;
+      }
+      .body {
+        font-family: 'Switzer-Medium';
+        font-weight: 500;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        font-size: 18.85px;
+        padding-top: 50px;
+        color: #2F4858;
+        line-height: 23.5px;
+      }
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); /* Adjust the column width as needed */
+        gap: 10px; /* Adjust the gap between images as needed */
+      }
+      
+      img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+        max-height: 100%; /* Make sure the image doesn't exceed its container's height */
+        width: 100%; /* Ensure the image takes up the entire grid cell width */
+        height: auto; /* Allow the image to resize its height proportionally */
+        transition: transform 0.3s ease-in-out;
+      }
+      img.zoomer {
+        transform: scale(2); /* You can adjust the zoom level (1.5 for 150% zoom) */
+      }
+      .zoomer {
+        position: relative;
+        overflow: hidden;
+      }
+      .publicimg:hover {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 249, 0.3));
+      }
+      .zoomer:hover::before {
+        content: "Click to Zoom"; /* Text or icon you want to display */
+        font-family: 'Switzer-Medium';
+      font-weight: 500;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: #f2f2e2; /* Text color */
+        padding: 5px 10px; /* Adjust padding as needed */
+        font-size: 17px; /* Adjust font size as needed */
+        opacity: 0;
+        pointer-events: none; /* Ensure the text does not interfere with clicks */
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .zoomer:hover::before {
+        opacity: 1;
+      }
+      .containe2 {
+        max-width: 300px;
+        display: flexbox;
+        justify-content: center;
+        margin-top: 80px;
+        margin-left: 685px;
+      }
+      .downloaded {
+        font-family: 'Switzer-Medium';
+      font-weight: 500;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+        text-align: center;
+        font-size: 18.85px;
+        color: #2F4858;
+        line-height: 23.5px;
+        transition: transform 0.3s ease;
+      }
+    .downloaded:hover {
+      z-index: 1;
+      text-shadow: 0 0 7.8px #2F4858;
+    }
+    .item:nth-of-type(2):hover::before {
+      content: "Download Full PDF"; /* Text or icon you want to display */
+      font-family: 'Vercetti-Regular', sans-serif;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      position: absolute;
+      top: 24%;
+      left: 46%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      color: #f2f2e2; /* Text color */
+      padding: 5px 10px; /* Adjust padding as needed */
+      font-size: 17px; /* Adjust font size as needed */
+    }
+
+    }
+    @media only screen and (min-width: 1880px) { 
+     
+      .container {
+        max-width: 1820px;
+        margin-left: 160px;
+        margin-top: 160px;
+        display: grid;
+        align-items: start;
+        grid-template-columns: 500px 800px;
+        grid-template-rows: 490px 450px;
+        grid-auto-columns: minmax(50px, auto);  
+        grid-auto-rows: minmax(50px, auto); 
+        column-gap: 80px;
+      }
+      .publicimg {
+        width: 920px;
+        height: 710px;
+      }
+      .item:nth-of-type(1) {
+        font-family : 'Bebas Neue', sans-serif;
+        font-size: 85px;
+        line-height: 80px;
+        user-select: none;  
+        color: #2F4858;
+      }
+      .body {
+        font-family: 'Switzer-Medium';
+        font-weight: 500;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        font-size: 18.85px;
+        padding-top: 50px;
+        color: #2F4858;
+        line-height: 23.5px;
+      }
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); /* Adjust the column width as needed */
+        gap: 10px; /* Adjust the gap between images as needed */
+      }
+      
+      img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container's width */
+        max-height: 100%; /* Make sure the image doesn't exceed its container's height */
+        width: 100%; /* Ensure the image takes up the entire grid cell width */
+        height: auto; /* Allow the image to resize its height proportionally */
+        transition: transform 0.3s ease-in-out;
+      }
+      img.zoomer {
+        transform: scale(2); /* You can adjust the zoom level (1.5 for 150% zoom) */
+      }
+      .zoomer {
+        position: relative;
+        overflow: hidden;
+      }
+      .publicimg:hover {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 249, 0.3));
+      }
+      .zoomer:hover::before {
+        content: "Click to Zoom"; /* Text or icon you want to display */
+        font-family: 'Switzer-Medium';
+      font-weight: 500;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: #f2f2e2; /* Text color */
+        padding: 5px 10px; /* Adjust padding as needed */
+        font-size: 17px; /* Adjust font size as needed */
+        opacity: 0;
+        pointer-events: none; /* Ensure the text does not interfere with clicks */
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .zoomer:hover::before {
+        opacity: 1;
+      }
+      .containe2 {
+        max-width: 300px;
+        display: flexbox;
+        justify-content: center;
+        margin-top: 80px;
+        margin-left: 800px;
+      }
+      .downloaded {
+        font-family: 'Switzer-Medium';
+      font-weight: 500;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+        text-align: center;
+        font-size: 18.85px;
+        color: #2F4858;
+        line-height: 23.5px;
+        transition: transform 0.3s ease;
+      }
+    .downloaded:hover {
+      z-index: 1;
+      text-shadow: 0 0 7.8px #2F4858;
+    }
+    .item:nth-of-type(2):hover::before {
+      content: "Download Full PDF"; /* Text or icon you want to display */
+      font-family: 'Vercetti-Regular', sans-serif;
+      font-style: normal;
+      text-rendering: optimizeLegibility;
+      position: absolute;
+      top: 24%;
+      left: 46%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+      color: #f2f2e2; /* Text color */
+      padding: 5px 10px; /* Adjust padding as needed */
+      font-size: 17px; /* Adjust font size as needed */
+    }
+
     }
