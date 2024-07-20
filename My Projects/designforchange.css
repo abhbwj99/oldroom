@@ -915,6 +915,14 @@ a {
   font-size: 27.85px;
   line-height: 38.5px;
 }
+.readings {
+  display: flex;
+  justify-content: center;
+}
+.addsub {
+  width: 1640px;
+  height: 452px;
+}
 .content {
     font-size: 17.2px;
     padding-top: 10px;
@@ -1220,9 +1228,6 @@ a {
     position: relative;
 }
 }
-@media screen and (max-width: 1440px) {
-
-}
 @media only screen and (min-width: 1640px) and (orientation: landscape) {
 
   .container {
@@ -1328,6 +1333,10 @@ a {
 }
 .dataimg {
   padding-top: 229px;
+}
+.readings {
+  display: flex;
+  justify-content: center;
 }
 .addsub {
   width: 1640px;
@@ -2003,6 +2012,10 @@ a {
 }
 .readings {
   display: flex;
+}
+.readings {
+  display: flex;
+  justify-content: center;
 }
 .addsub {
   width: 1903px;
