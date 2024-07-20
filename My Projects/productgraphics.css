@@ -109,6 +109,7 @@ html.lenis {
   margin-top: 98px;
   display: flex;
   position: relative;
+  justify-content: center;
 }
 .setter {
   width: 1920px; 
@@ -452,6 +453,7 @@ html.lenis {
   margin-top: 80px;
   margin-left: 160px;
   display: flex;
+  justify-content: center;
 }
 .fewmore {
   width: 1560px;
@@ -460,6 +462,7 @@ html.lenis {
 .fewless {
   margin-left: 160px;
   display: flex;
+  justify-content: center;
 }
 .fewer {
   width: 1560px;
@@ -566,6 +569,17 @@ a {
         font-family : 'Bebas Neue', sans-serif;
         font-size: 75px;
         line-height: 70px;
+    }
+    .productcover {
+      margin-top: 98px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+    }
+    .setter {
+      width: 1640px; 
+      height: 916px;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 249, 1));
     }
     .bodycopy {
         font-size: 17.2px;
@@ -718,18 +732,20 @@ a {
   margin-top: 80px;
   margin-left: 0px;
   display: flex;
+  justify-content: center;
 }
 .fewless {
   margin-left: 0px;
   display: flex;
-}
-.fewmore {
-  width: 1440px;
-  height: 691px;
+  justify-content: center;
 }
 .fewer {
-  width: 1440px;
-  height: 691px;
+  width: 1640px;
+  height: 896px;
+}
+.fewmore {
+  width: 1640px;
+  height: 896px;
 }
 }
 @media only screen and (min-width: 1640px) and (orientation: landscape) {
@@ -1096,20 +1112,22 @@ a {
 
 .fewfew {
   margin-top: 80px;
-  margin-left: 110px;
+  margin-left: 0px;
   display: flex;
+  justify-content: center;
 }
 .fewmore {
-  width: 1360px;
-  height: 707px;
+  width: 1640px;
+  height: 896px;
 }
 .fewless {
-  margin-left: 110px;
+  margin-left: 0px;
   display: flex;
+  justify-content: center;
 }
 .fewer {
-  width: 1360px;
-  height: 707px;
+  width: 1640px;
+  height: 896px;
 }
 }
 @media only screen and (min-width: 1880px) {
@@ -1159,6 +1177,7 @@ a {
   margin-top: 98px;
   display: flex;
   position: relative;
+  justify-content: center;
 }
 .setter {
   width: 1920px; 
@@ -1512,6 +1531,7 @@ a {
   margin-top: 80px;
   margin-left: 160px;
   display: flex;
+  justify-content: center;
 }
 .fewmore {
   width: 1560px;
@@ -1520,6 +1540,7 @@ a {
 .fewless {
   margin-left: 160px;
   display: flex;
+  justify-content: center;
 }
 .fewer {
   width: 1560px;

@@ -379,9 +379,10 @@ font-weight: 700;
       user-select: none;  
   }
   .slide {
+    justify-content: center;
     position: absolute;
-    width: 1441px;
-    height: 1200px;
+    width: 1640px;
+    height: 920px;
     z-index: -1;
    /* transition: opacity 1s;*/
 }
@@ -641,6 +642,7 @@ font-weight: 700;
     width: 950px; /* Adjust the width and height to your preferred image size */
     height: 310px;
     display: grid;
+    justify-content: center;
     overflow: hidden;
   }
   .slideshow-container1 {
@@ -667,6 +669,7 @@ font-weight: 700;
     line-height: 23.5px;
 }
   .slide {
+    justify-content: center;
     position: absolute;
     width: 1640px;
     height: 920px;
@@ -891,6 +894,7 @@ font-weight: 700;
     line-height: 23.5px;
 }
   .slide {
+    justify-content: center;
     position: absolute;
     width: 1920px;
     height: 1200px;
