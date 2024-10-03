@@ -2458,7 +2458,7 @@ line-height: 24.6px;
   grid-template-rows: 236px;
 }*/
 .imageography1 {
-  margin-top: 130px;
+  margin-top: 30px;
   margin-left: 127px;
   display: grid;
   grid-template-columns: 634px;
@@ -2935,7 +2935,7 @@ line-height: 24.6px;
   grid-template-rows: 236px;
 }*/
 .imageography1 {
-  margin-top: 450px;
+  margin-top: 250px;
   margin-left: 127px;
   display: grid;
   grid-template-columns: 634px;
@@ -2948,7 +2948,7 @@ line-height: 24.6px;
 .imagegrid1, 
 .imagegrid2,*/
 .imagegrid3 {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-left: 110px;
   display: grid;
   grid-template-columns: repeat(5, 260px);
